@@ -1,0 +1,26 @@
+{
+  "name": "etenee_front",
+  "version": "1.0.0",
+  "description": "Etenee Frontend webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/etenee/etenee.git"
+  },
+  "author": "Pekka Niiranen & Niko Pelkonen & Päivi Kivijakola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etenee/etenee/issues"
+  },
+  "homepage": "https://github.com/etenee/etenee#readme",
+  "dependencies": {
+    "babel-loader": "^6.3.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
