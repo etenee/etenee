@@ -7,7 +7,7 @@ OR
 git clone https://github.com/etenee/etenee.git
 
 navigate into EteneeFront
-run:
+and run:
 npm install
 
 then run:
