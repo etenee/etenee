@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
 
 import Test from './components/test.jsx'
 
