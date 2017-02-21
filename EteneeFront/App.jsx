@@ -6,6 +6,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import Test from './components/test.jsx'
+import Table from './components/table.jsx'
 
 class App extends Component {
    render() {
@@ -14,6 +15,7 @@ class App extends Component {
          <div>
 
             <Test />
+            <Table />
 
          </div>
       )
