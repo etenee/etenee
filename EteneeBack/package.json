@@ -1,0 +1,12 @@
+{
+  "name": "etenee_backend",
+  "version": "1.0.0",
+  "description": "Backend for etenee project",
+  "main": "server.js",
+  "scripts": {},
+  "author": "Pekka Niiranen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
