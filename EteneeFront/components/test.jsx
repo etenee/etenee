@@ -5,7 +5,7 @@ class Test extends React.Component {
    render() {
      //
       return (
-         <div><h1>TESTI</h1></div>
+         <div><h1>Opiskelijoiden etenemisen seurantatyökalu</h1></div>
       )
    }
 }
