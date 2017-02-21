@@ -22,7 +22,7 @@ class Table extends React.Component {
       }]
     }]
 
-    const data = [{Name: 'shit'}, {Name: 'Shit'}]
+    const data = [{firstName: 'tauno', age: 105}, {firstName: 'pertti', age: 25}]
       return (
         <ReactTable
            data={data}
