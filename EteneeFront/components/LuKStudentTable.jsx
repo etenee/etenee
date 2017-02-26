@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 //import {connect} from 'react-redux'
 import ReactTable from 'react-table'
+import { ReactTableDefaults } from 'react-table'
 
 class LuKStudentTable extends React.Component {
    render() {
       const lukStudentColumns = [{
-        header: null,
         columns: [{
           header: 'Sukunimi',
           id: 'lastName',
