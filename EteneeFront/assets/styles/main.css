@@ -1,1 +1,10 @@
 @import '../../node_modules/react-table/react-table.css';
+
+.center-container {
+  padding: 10px;
+  margin: 10%;
+}
+
+.headline {
+  margin-left: 10%;
+}
