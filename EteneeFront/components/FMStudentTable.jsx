@@ -73,11 +73,14 @@ class FMStudentTable extends React.Component {
         ]
 
         return (
-            <ReactTable
-                data={fmStudentData}
-                columns={fmStudentColumns}
-                defaultPageSize={5}
-            />
+            <div>
+              <h3>Fm-opiskelijat</h3>
+              <ReactTable
+                  data={fmStudentData}
+                  columns={fmStudentColumns}
+                  defaultPageSize={5}
+              />
+            </div>
         )
 
     }

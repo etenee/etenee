@@ -9,17 +9,18 @@ import Test from './components/test.jsx'
 import LuKStudentTable from './components/LuKStudentTable.jsx'
 import FMStudentTable from './components/FMStudentTable.jsx'
 
-//import 'react-table/react-table.css' <-- VOI TEHDÄ MYÖS NÄIN  
+//import 'react-table/react-table.css' <-- VOI TEHDÄ MYÖS NÄIN
 
 class App extends Component {
    render() {
 
       return (
          <div>
-
-            <Test />
+          <Test className="headline"/>
+          <div className="center-container">
             <LuKStudentTable />
             <FMStudentTable />
+          </div>
 
          </div>
       )
