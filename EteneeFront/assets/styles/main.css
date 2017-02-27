@@ -1,8 +1,9 @@
 @import '../../node_modules/react-table/react-table.css';
+@import './tables.css';
 
 .center-container {
   padding: 10px;
-  margin: 10%;
+  margin: 5% 10% 10% 10%;
 }
 
 .headline {

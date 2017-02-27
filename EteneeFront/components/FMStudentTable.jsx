@@ -74,7 +74,7 @@ class FMStudentTable extends React.Component {
 
         return (
             <div>
-              <h3>Fm-opiskelijat</h3>
+              <h3>FM-opiskelijat</h3>
               <ReactTable
                   data={fmStudentData}
                   columns={fmStudentColumns}

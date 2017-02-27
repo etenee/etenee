@@ -3,7 +3,7 @@ div.rt-tbody {
 }
 .searchBar {
     color: gray;
-    margin: 0;
+    margin: 0 10% 0 0;
     float: right;
     left: 20px;
     border: 1px;
@@ -11,6 +11,7 @@ div.rt-tbody {
     border-style: solid;
     padding:  2px 80px 2px 2px;
     max-width: 130px;
+    box-shadow: 2px 2px 1px #888888;
 }
 
 .siteHeading {
