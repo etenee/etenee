@@ -17,3 +17,9 @@ div.rt-tbody {
 .siteHeading {
     text-align: center;
 }
+
+.ReactTable .rt-tbody{
+    overflow-y: auto;
+    display: block;
+    max-height: 20em;
+}
