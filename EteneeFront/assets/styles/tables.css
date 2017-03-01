@@ -6,10 +6,6 @@ div.rt-td:hover {
     background-color: yellow;
 }
 
-div.rt-td:hover + div {
-    display: block;
-}
-
 .searchBar {
     color: gray;
     margin: 0 10% 0 0;
@@ -23,8 +19,9 @@ div.rt-td:hover + div {
     box-shadow: 2px 2px 1px #888888;
 }
 
-.siteHeading {
-    text-align: center;
+.lukHeader {
+    position: fixed;
+    top: 50px;
 }
 
 .tooltip {
@@ -51,9 +48,4 @@ div.rt-td:hover + div {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
     visibility: visible;
-}
-.ReactTable .rt-tbody{
-    overflow-y: auto;
-    display: block;
-    max-height: 20em;
 }

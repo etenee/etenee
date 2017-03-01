@@ -76,11 +76,8 @@ class LuKStudentTable extends React.Component {
       ]
 
       return (
-        <div>
-          <div className="tooltip">Hover over me
-            <span className="tooltiptext">Tooltip text</span>
-          </div>
-          <h3>LuK-opiskelijat</h3>
+        <div className="lukTable">
+          <h3 className="lukHeader">LuK-opiskelijat</h3>
           <ReactTable
              data={lukStudentData}
              columns={lukStudentColumns}
