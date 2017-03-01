@@ -8,7 +8,7 @@ class Test extends React.Component {
       <div>
         <h1 className="siteHeading">Opiskelijoiden etenemisen seurantatyökalu</h1>
         <div className="searchBar">
-          Etsi opiskelijaa...
+          Hae opiskelijaa...
         </div>
       </div>
     )
