@@ -1,0 +1,154 @@
+{"students": [
+  {"firstName": "Rauno",
+  "lastName": "Repomies",
+  "passedCourses": [
+    {"code": 12345,
+    "date": "11-06-1989",
+    "name": "Johdatusohjelmointiin",
+    "credits": 5}
+    ],
+  "courses": [{
+    "code": 123456,
+    "date": "11-06-2017",
+    "name": "Etäännytys ohjelmointiin",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "FM",
+    "version": "2012"
+    }]
+  },
+  {"firstName": "Pertti",
+  "lastName": "Jarla",
+  "passedCourses": [
+    {"code": 2345,
+    "date": "11-06-2016",
+    "name": "Ihminen tietokoneen käyttäjänä ja kehittäjänä",
+    "credits": 5}
+    ],
+  "courses": [{
+    "code": 123456,
+    "date": "11-06-2017",
+    "name": "Etäännytys ohjelmointiin",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "FM",
+    "version": "2012"
+    }]
+  },
+  {"firstName": "Päivi",
+  "lastName": "KiviJaakko",
+  "passedCourses": [
+    {"code": 234455,
+    "date": "11-06-2016",
+    "name": "Genetiikka",
+    "credits": 5
+    }],
+  "courses": [{
+    "code": 12345346,
+    "date": "12-07-2017",
+    "name": "TDAP",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "FM",
+    "version": "2012"
+    }]
+  },
+  {"firstName": "Mörssäri",
+  "lastName": "Karju",
+  "passedCourses": [
+    {"code": 234455,
+    "date": "11-06-2016",
+    "name": "Genetiikka",
+    "credits": 5
+    }],
+  "courses": [{
+    "code": 12345346,
+    "date": "12-07-2017",
+    "name": "TDAP",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "FM",
+    "version": "2012"
+    }]
+  },
+  {"firstName": "Henrik",
+  "lastName": "Hedberg",
+  "passedCourses": [
+    {"code": 12345,
+    "date": "11-06-1989",
+    "name": "Johdatusohjelmointiin",
+    "credits": 5}
+    ],
+  "courses": [{
+    "code": 123456,
+    "date": "11-06-2017",
+    "name": "Etäännytys ohjelmointiin",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "LUK",
+    "version": "2012"
+    }]
+  },
+  {"firstName": "Kuu",
+  "lastName": "Ukko",
+  "passedCourses": [
+    {"code": 2345,
+    "date": "11-06-2016",
+    "name": "Ihminen tietokoneen käyttäjänä ja kehittäjänä",
+    "credits": 5}
+    ],
+  "courses": [{
+    "code": 123456,
+    "date": "11-06-2017",
+    "name": "Etäännytys ohjelmointiin",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "LUK",
+    "version": "2011"
+    }]
+  },
+  {"firstName": "Pekka",
+  "lastName": "Mestari",
+  "passedCourses": [
+    {"code": 234455,
+    "date": "11-06-2016",
+    "name": "Genetiikka",
+    "credits": 5
+    }],
+  "courses": [{
+    "code": 12345346,
+    "date": "12-07-2017",
+    "name": "TDAP",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "LUK",
+    "version": "2013"
+    }]
+  },
+  {"firstName": "Juhani",
+  "lastName": "Warsta",
+  "passedCourses": [
+    {"code": 234455,
+    "date": "11-06-2016",
+    "name": "Genetiikka",
+    "credits": 5
+    }],
+  "courses": [{
+    "code": 12345346,
+    "date": "12-07-2017",
+    "name": "TDAP",
+    "credits": 5
+    }],
+  "curriculum": [{
+    "ops": "LUK",
+    "version": "2014"
+    }]
+  }
+]}

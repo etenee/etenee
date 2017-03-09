@@ -4,7 +4,8 @@ var app = express();
 
 //import prototype dummy data
 var data = require ('./data/data.json');
-var fm = require ('./data/fm.json');
+var fm = require ('./data/fmTrue.json');
+var all = require ('./data/all.json');
 
 //assign port
 var port = process.env.PORT || 3001;
@@ -24,6 +25,10 @@ app.get('/', function(req, res) {
 //fm endpoint responds with var fm
 app.get('/fm/', function(req, res) {
 	res.json(fm);
+});
+
+app.get('/students/', function(req, res) {
+	res.json(all);
 });
 
 //server will listen to port 3001
