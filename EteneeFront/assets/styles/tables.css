@@ -2,6 +2,10 @@ div.rt-tbody {
     text-align: center;
 }
 
+div.rt-td.lastN{
+    text-align: left;
+}
+
 div.rt-td:hover {
     background-color: yellow;
 }
@@ -19,9 +23,13 @@ div.rt-td:hover {
     box-shadow: 2px 2px 1px #888888;
 }
 
-.lukHeader {
-    position: fixed;
-    top: 50px;
+.lukHeader, .fmHeader{
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .tooltip {
@@ -39,7 +47,7 @@ div.rt-td:hover {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
- 
+
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;

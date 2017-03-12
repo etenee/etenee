@@ -7,6 +7,7 @@ class LuKStudentTable extends React.Component {
    render() {
       const lukStudentColumns = [{
         columns: [{
+          className: 'lastN',
           header: 'Sukunimi',
           id: 'lastName',
           accessor: d => d.lastName
@@ -81,7 +82,8 @@ class LuKStudentTable extends React.Component {
           <ReactTable
              data={lukStudentData}
              columns={lukStudentColumns}
-             defaultPageSize={5}
+             pageSizeOptions= {[15, 25, 50, 100]}
+             defaultPageSize={15}
            />
         </div>
       )
