@@ -6,6 +6,7 @@ var app = express();
 var data = require ('./data/data.json');
 var fm = require ('./data/fmTrue.json');
 var all = require ('./data/all.json');
+var bachelorCurriculum = require ('./data/curriculum.json');
 
 //assign port
 var port = process.env.PORT || 3001;
@@ -29,6 +30,10 @@ app.get('/fm/', function(req, res) {
 
 app.get('/students/', function(req, res) {
 	res.json(all);
+});
+
+app.get('/bachelorCurriculum/', function(req, res) {
+	res.json(bachelorCurriculum);
 });
 
 //server will listen to port 3001

@@ -28,7 +28,7 @@ function getData (state = [], action) {
       console.log('reducer got success');
       console.log(action);
       return {
-        students: action.data
+        students: action.data.students
       };
     default:
       console.log('reducer got default');
