@@ -25,13 +25,13 @@ class App extends Component {
     this.props.dispatch(dataToRedux())
   };
    render() {
-     //const students = this.props
+     const students = this.props
 
       return (
          <div>
           <Test className="headline"/>
           <div className="center-container">
-            <LuKStudentTable />
+            <LuKStudentTable lukStudents = {students}/>
             <FMStudentTable />
           </div>
 
