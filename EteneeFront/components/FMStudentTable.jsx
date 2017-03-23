@@ -54,7 +54,7 @@ class FMStudentTable extends React.Component {
             accessor: 'f5'
           }]
         }]
-        
+
         const fmStudentData = [
           {lastName: 'Pietikäinen', firstName: 'Pentti', studyPlan: 'FM 2015', creditsAmount: 265, otherCredits: 40,
           f1: '', f2: 'X', f3: 'X', f4: 'X', f5: ''},
@@ -71,17 +71,22 @@ class FMStudentTable extends React.Component {
           {lastName: 'Keränen', firstName: 'Henri', studyPlan: 'FM 2014', creditsAmount: 319, otherCredits: 40,
           f1: 'X', f2: 'X', f3: 'X', f4: '', f5: 'X'},
         ]
+        // _. alkuinen tarkoittaa aina lodash metodia
+        //propseja pitäisi vielä korjata. Tulevat nyt pöljästi students
+        //listana students objektin sisässä
+        const fmArray = _.filter(this.props.students.students, { "curriculum": {"ops": "FM"} });
+        console.log('filtered FM students from student list');
+        console.log(fmArray);
 
         return (
             <div>
               <h3>FM-opiskelijat</h3>
-              {this.props.students.map(student =>
                 <ReactTable
-                    data={student.students}
+                    data={fmArray}
                     columns={fmStudentColumns}
                     defaultPageSize={5}
                 />
-              )}
+
             </div>
         )
 
