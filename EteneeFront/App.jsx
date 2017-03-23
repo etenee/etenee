@@ -28,13 +28,17 @@ class App extends Component {
      const { studentsList } = this.props
 
       return (
-         <div>
-          <Test className="headline"/>
-          <div className="center-container">
-            <LuKStudentTable students = {studentsList}/>
-            <FMStudentTable students = {studentsList}/>
+        <div>
+          <h1 className="siteHeading">Opiskelijoiden etenemisen seurantatyökalu</h1>
+          <div className="searchBar">
+            Hae opiskelijaa...
           </div>
-
+          <div>
+            <div className="center-container">
+              <LuKStudentTable students = {studentsList}/>
+              <FMStudentTable students = {studentsList}/>
+            </div>
+          </div>
          </div>
       )
    }
