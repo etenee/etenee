@@ -42,6 +42,7 @@ class App extends Component {
 
 
 function select(state) {
+  console.log(state);
   return {
     studentsList: state.students
   }
