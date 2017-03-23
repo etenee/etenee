@@ -19,10 +19,10 @@ import { getStudents } from './actions/actions.js';
 
 class App extends Component {
   componentDidMount() {
-    //const { dispatch, students } = this.props
+    const { dispatch, students } = this.props
     //const mapDispatchToProps = dispatch => ({dataToRedux: () => dispatch(dataToRedux())})
-    //this.props = dataToRedux()
-    this.props.dispatch(dataToRedux())
+    this.props = dataToRedux(dispatch)
+    //this.props.dispatch(dataToRedux())
   };
    render() {
      const studentsList = this.props
@@ -39,6 +39,7 @@ class App extends Component {
       )
    }
 }
+
 
 function select(state) {
   return {
