@@ -19,14 +19,14 @@ import { GET_DATA_ERROR } from '../actions/actions.js';*/
   }
 }*/
 
-function getData (state = [], action) {
+function students (state = [], action) {
   switch (action.type) {
     case "GET_REQUEST":
       console.log('reducer got request');
       return state;
     case "GET_DATA_SUCCESS":
       console.log('reducer got success');
-      console.log(action);
+      console.log(action.data.students);
       return {
         students: action.data.students
       };
@@ -36,7 +36,7 @@ function getData (state = [], action) {
   }
 }
 
-function students (state = [], action) {
+/*function students (state = [], action) {
   switch (action.type) {
     case "GET_DATA_SUCCESS":
       return[
@@ -46,10 +46,10 @@ function students (state = [], action) {
     default:
       return state
   }
-}
+}*/
 
 const studentModule = combineReducers({
-  getData,
+  //getData,
   students
 });
 
