@@ -5,6 +5,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { createStore, applyMiddleware, compose } from 'redux';
+var _ = require('lodash');
 
 import App from './App.jsx';
 import { getStudentList } from './actions/actions.js';
