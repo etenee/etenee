@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 //import {connect} from 'react-redux'
 import ReactTable from 'react-table'
 
@@ -54,7 +54,7 @@ class FMStudentTable extends React.Component {
             accessor: 'f5'
           }]
         }]
-
+        
         const fmStudentData = [
           {lastName: 'Pietikäinen', firstName: 'Pentti', studyPlan: 'FM 2015', creditsAmount: 265, otherCredits: 40,
           f1: '', f2: 'X', f3: 'X', f4: 'X', f5: ''},
@@ -75,11 +75,13 @@ class FMStudentTable extends React.Component {
         return (
             <div>
               <h3>FM-opiskelijat</h3>
-              <ReactTable
-                  data={fmStudentData}
-                  columns={fmStudentColumns}
-                  defaultPageSize={5}
-              />
+              {this.props.students.map(student =>
+                <ReactTable
+                    data={student.students}
+                    columns={fmStudentColumns}
+                    defaultPageSize={5}
+                />
+              )}
             </div>
         )
 
