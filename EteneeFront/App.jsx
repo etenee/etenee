@@ -7,7 +7,6 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {bindActionCreators} from 'redux';
 
-import Test from './components/test.jsx'
 import LuKStudentTable from './components/LuKStudentTable.jsx'
 import FMStudentTable from './components/FMStudentTable.jsx'
 import { dataToRedux } from './actions/actions.js';
