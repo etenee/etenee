@@ -1,6 +1,7 @@
 {"students": [
-  {"firstName": "Rauno",
+  {"firstName": "RaunoXu",
   "lastName": "Repomies",
+  "id": 17299127,
   "passedCourses": [
     {"code": 12345,
     "date": "11-06-1989",
@@ -13,13 +14,14 @@
     "name": "Etäännytys ohjelmointiin",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "FM",
     "version": "2012"
-    }]
+    }
   },
   {"firstName": "Pertti",
   "lastName": "Jarla",
+  "id": 1234667,
   "passedCourses": [
     {"code": 2345,
     "date": "11-06-2016",
@@ -32,13 +34,14 @@
     "name": "Etäännytys ohjelmointiin",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "FM",
     "version": "2012"
-    }]
+    }
   },
   {"firstName": "Päivi",
   "lastName": "KiviJaakko",
+  "id": 1875677,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -51,13 +54,14 @@
     "name": "TDAP",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "FM",
     "version": "2012"
-    }]
+    }
   },
   {"firstName": "Mörssäri",
   "lastName": "Karju",
+  "id": 1723785,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -70,13 +74,14 @@
     "name": "TDAP",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "FM",
     "version": "2012"
-    }]
+    }
   },
   {"firstName": "Henrik",
   "lastName": "Hedberg",
+  "id": 87654236,
   "passedCourses": [
     {"code": 12345,
     "date": "11-06-1989",
@@ -89,13 +94,14 @@
     "name": "Etäännytys ohjelmointiin",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "LUK",
     "version": "2012"
-    }]
+    }
   },
   {"firstName": "Kuu",
   "lastName": "Ukko",
+  "id": 17923476,
   "passedCourses": [
     {"code": 2345,
     "date": "11-06-2016",
@@ -108,13 +114,14 @@
     "name": "Etäännytys ohjelmointiin",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "LUK",
     "version": "2011"
-    }]
+    }
   },
   {"firstName": "Pekka",
   "lastName": "Mestari",
+  "id": 26603956,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -127,13 +134,14 @@
     "name": "TDAP",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "LUK",
     "version": "2013"
-    }]
+    }
   },
   {"firstName": "Juhani",
   "lastName": "Warsta",
+  "id": 26,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -146,9 +154,9 @@
     "name": "TDAP",
     "credits": 5
     }],
-  "curriculum": [{
+  "curriculum": {
     "ops": "LUK",
     "version": "2014"
-    }]
+    }
   }
 ]}
