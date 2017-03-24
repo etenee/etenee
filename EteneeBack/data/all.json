@@ -2,6 +2,7 @@
   {"firstName": "RaunoXu",
   "lastName": "Repomies",
   "id": 17299127,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 12345,
     "date": "11-06-1989",
@@ -22,6 +23,7 @@
   {"firstName": "Pertti",
   "lastName": "Jarla",
   "id": 1234667,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 2345,
     "date": "11-06-2016",
@@ -42,6 +44,7 @@
   {"firstName": "Päivi",
   "lastName": "KiviJaakko",
   "id": 1875677,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -62,6 +65,7 @@
   {"firstName": "Mörssäri",
   "lastName": "Karju",
   "id": 1723785,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -82,6 +86,7 @@
   {"firstName": "Henrik",
   "lastName": "Hedberg",
   "id": 87654236,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 12345,
     "date": "11-06-1989",
@@ -102,6 +107,7 @@
   {"firstName": "Kuu",
   "lastName": "Ukko",
   "id": 17923476,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 2345,
     "date": "11-06-2016",
@@ -122,6 +128,7 @@
   {"firstName": "Pekka",
   "lastName": "Mestari",
   "id": 26603956,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -142,6 +149,7 @@
   {"firstName": "Juhani",
   "lastName": "Warsta",
   "id": 26,
+  "totalCredits": 10,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
