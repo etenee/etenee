@@ -2,6 +2,7 @@ export const GET_STUDENTS = 'GET_STUDENTS';
 export const GET_REQUEST = 'GET_REQUEST';
 export const GET_DATA_SUCCESS = 'GET_DATA_SUCCESS';
 export const GET_DATA_ERROR = 'GET_DATA_ERROR';
+export const GET_LUK_CURRICULUM_SUCCESS = "GET_LUK_CURRICULUM_SUCCESS";
 
 let nextId = 1;
 
@@ -41,14 +42,31 @@ export function getDataError() {
   }
 }
 
-/*export function dataToRedux() {
-  console.log('to redux');
-  return dispatch => {
-    dispatch(fetchData().then(response => dispatch(
-      getDataSuccess(response)
-    )))
+export function fetchCurriculum() {
+  const url = 'http://localhost:3001/bachelorCurriculum/';
+  console.log('getting data');
+  return fetch(url, {
+    method: 'GET',
+    headers: {
+      Accept: 'application/json',
+    },
+  }).then((response) => response.json())
+}
+
+export function getLukCurriculumSuccess(payload) {
+  console.log('succaess');
+  console.log(payload);
+  return {
+    type: 'GET_LUK_CURRICULUM_SUCCESS',
+    data: payload,
+    id: nextId
   }
-}*/
+}
+
+export const curriculumToState = dispatch => {
+  console.log('fetch starting');
+  return fetchCurriculum().then(response => dispatch(getLukCurriculumSuccess(response)))
+}
 
 export const dataToRedux = dispatch => {
   console.log('fetch starting');
