@@ -9,7 +9,7 @@ import {bindActionCreators} from 'redux';
 
 import LuKStudentTable from './components/LuKStudentTable.jsx'
 import FMStudentTable from './components/FMStudentTable.jsx'
-import { dataToRedux } from './actions/actions.js';
+import { dataToRedux, curriculumToState } from './actions/actions.js';
 import { getDataSuccess } from './actions/actions.js';
 
 import { getStudents } from './actions/actions.js';
@@ -21,6 +21,7 @@ class App extends Component {
     const { dispatch, students } = this.props
     //const mapDispatchToProps = dispatch => ({dataToRedux: () => dispatch(dataToRedux())})
     this.props = dataToRedux(dispatch)
+    this.props = curriculumToState(dispatch)
     //this.props.dispatch(dataToRedux())
   };
    render() {
@@ -47,7 +48,8 @@ class App extends Component {
 function select(state) {
   console.log(state);
   return {
-    studentsList: state.students
+    studentsList: state.students,
+    lukCurriculum: state.lukCurriculum
   }
 }
 
