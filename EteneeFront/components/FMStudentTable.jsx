@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 //import {connect} from 'react-redux'
 import ReactTable from 'react-table'
+import { ReactTableDefaults } from 'react-table'
 
 class FMStudentTable extends React.Component {
     render() {
@@ -75,7 +76,8 @@ class FMStudentTable extends React.Component {
         //propseja pitäisi vielä korjata. Tulevat nyt pöljästi students
         //listana students objektin sisässä
         const fmArray = _.filter(this.props.students.students, { "curriculum": {"ops": "FM"} });
-        console.log('filtered FM students from student list');
+        //const fmColumnsArray = _.filter(this.props.students.students, { ""})
+        console.log('filtered LUK students from student list');
         console.log(fmArray);
 
         return (
@@ -85,6 +87,7 @@ class FMStudentTable extends React.Component {
                     data={fmArray}
                     columns={fmStudentColumns}
                     defaultPageSize={5}
+                    //showPagination pitäs saaha jotenki falseksi, se on tällä hetkellä true
                 />
 
             </div>

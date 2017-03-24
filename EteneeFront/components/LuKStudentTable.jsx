@@ -75,11 +75,13 @@ class LuKStudentTable extends React.Component {
       k1: 'X', k2: 'X', k3: 'X', k4: '', k5: 'X'},
       ]
 
+      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LUK"}})
+
       return (
         <div className="lukTable">
           <h3 className="lukHeader">LuK-opiskelijat</h3>
           <ReactTable
-             data={lukStudentData}
+             data={lukArray}
              columns={lukStudentColumns}
              defaultPageSize={5}
            />
