@@ -1,6 +1,10 @@
 /*import { reducer as sematable } from 'sematable';*/
 import { combineReducers } from 'redux';
-import { GET_STUDENTS, GET_REQUEST, GET_DATA_SUCCESS, GET_DATA_ERROR } from '../actions/actions.js';
+import { GET_STUDENTS,
+  GET_REQUEST, GET_DATA_SUCCESS,
+  GET_DATA_ERROR,
+  GET_LUK_CURRICULUM_SUCCESS
+} from '../actions/actions.js';
 /*import { GET_REQUEST } from '../actions/actions.js';
 import { GET_DATA_SUCCESS } from '../actions/actions.js';
 import { GET_DATA_ERROR } from '../actions/actions.js';*/
@@ -36,6 +40,19 @@ function students (state = [], action) {
   }
 }
 
+function lukCurriculum (state = [], action) {
+  switch (action.type) {
+    case "GET_LUK_CURRICULUM_SUCCESS":
+      console.log('success in getting curriculum');
+      console.log(action.data);
+      return {
+        lukCurriculum: action.data
+      };
+    default:
+      console.log('reducer got default');
+      return state;
+  }
+}
 /*function students (state = [], action) {
   switch (action.type) {
     case "GET_DATA_SUCCESS":
@@ -49,7 +66,7 @@ function students (state = [], action) {
 }*/
 
 const studentModule = combineReducers({
-  //getData,
+  lukCurriculum,
   students
 });
 
