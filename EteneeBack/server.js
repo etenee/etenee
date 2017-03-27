@@ -6,7 +6,7 @@ var app = express();
 var data = require ('./data/data.json');
 var fm = require ('./data/fmTrue.json');
 var all = require ('./data/all.json');
-var bachelorCurriculum = require ('./data/curriculum.json');
+var bachelorCurriculum = require ('./data/curriculumLuk14.json');
 
 //assign port
 var port = process.env.PORT || 3001;

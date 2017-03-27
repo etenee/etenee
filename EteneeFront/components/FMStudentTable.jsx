@@ -22,7 +22,8 @@ class FMStudentTable extends React.Component {
         }, {
           columns: [{
             header: 'OP',
-            accessor: 'creditsAmount'
+            id: 'totalCredits',
+            accessor: d => d.totalCredits
           }]
         }, {
           columns: [{
@@ -77,7 +78,7 @@ class FMStudentTable extends React.Component {
         //listana students objektin sisässä
         const fmArray = _.filter(this.props.students.students, { "curriculum": {"ops": "FM"} });
         //const fmColumnsArray = _.filter(this.props.students.students, { ""})
-        console.log('filtered LUK students from student list');
+        console.log('filtered FM students from student list');
         console.log(fmArray);
 
         return (

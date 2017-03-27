@@ -76,6 +76,7 @@ class LuKStudentTable extends React.Component {
       ]
 
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LUK"}})
+      //const lukColumns = _.map(this.props.studentsList.students, )
 
       return (
         <div className="lukTable">
