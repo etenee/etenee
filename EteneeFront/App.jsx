@@ -25,7 +25,7 @@ class App extends Component {
     //this.props.dispatch(dataToRedux())
   };
    render() {
-     const { studentsList } = this.props
+     const { studentsList, lukCurriculum } = this.props
 
       return (
         <div>
@@ -35,7 +35,7 @@ class App extends Component {
           </div>
           <div>
             <div className="center-container">
-              <LuKStudentTable students = {studentsList}/>
+              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum}/>
               <FMStudentTable students = {studentsList}/>
             </div>
           </div>

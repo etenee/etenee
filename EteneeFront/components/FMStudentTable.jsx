@@ -18,39 +18,26 @@ class FMStudentTable extends React.Component {
           columns: [{
             header: 'OPS',
             accessor: 'studyPlan'
-          }]
-        }, {
-          columns: [{
+          },
+          {
             header: 'OP',
             accessor: 'creditsAmount'
-          }]
         }, {
-          columns: [{
             header: 'Muut',
             accessor: 'otherCredits'
-          }]
         }, {
-          columns: [{
             header: 'F1',
             accessor: 'f1'
-          }]
         }, {
-          columns: [{
             header: 'F2',
             accessor: 'f2'
-          }]
         }, {
-          columns: [{
             header: 'F3',
             accessor: 'f3'
-          }]
         }, {
-          columns: [{
             header: 'F4',
             accessor: 'f4'
-          }]
         }, {
-          columns: [{
             header: 'F5',
             accessor: 'f5'
           }]
@@ -77,7 +64,7 @@ class FMStudentTable extends React.Component {
         //listana students objektin sisässä
         const fmArray = _.filter(this.props.students.students, { "curriculum": {"ops": "FM"} });
         //const fmColumnsArray = _.filter(this.props.students.students, { ""})
-        console.log('filtered LUK students from student list');
+        console.log('filtered FM students from student list');
         console.log(fmArray);
 
         return (

@@ -4,56 +4,30 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 
 class LuKStudentTable extends React.Component {
+  componentWillUpdate() {
+    console.log(this.props);
+    const curriculum = this.props.curriculum;
+    console.log('curriculum comin');
+    if (curriculum.courses !== undefined) {
+      curriculum.courses.forEach(function(course){
+        course.header = 'Nimi';
+        course.accessor = course.name;
+      });
+    }
+    console.log(curriculum);
+  }
    render() {
       const lukStudentColumns = [{
-        columns: [{
-          header: 'Sukunimi',
-          id: 'lastName',
-          accessor: d => d.lastName
-        }, {
-          header: 'Etunimi',
-          accessor: 'firstName'
-        }]
+      columns: [{
+        header: 'Sukunimi',
+        id: 'lastName',
+        accessor: d => d.lastName
       }, {
-        columns: [{
-          header: 'OPS',
-          accessor: 'studyPlan'
-        }]
+        header: 'Etunimi',
+        accessor: 'firstName'
+      }]
       }, {
-        columns: [{
-          header: 'OP',
-          accessor: 'creditsAmount'
-        }]
-      }, {
-        columns: [{
-          header: 'Muut',
-          accessor: 'otherCredits'
-        }]
-      }, {
-        columns: [{
-          header: 'K1',
-          accessor: 'k1'
-        }]
-      }, {
-        columns: [{
-          header: 'K2',
-          accessor: 'k2'
-        }]
-      }, {
-        columns: [{
-          header: 'K3',
-          accessor: 'k3'
-        }]
-      }, {
-        columns: [{
-          header: 'K4',
-          accessor: 'k4'
-        }]
-      }, {
-        columns: [{
-          header: 'K5',
-          accessor: 'k5'
-        }]
+        //columns: curriculum.courses
       }]
 
       const lukStudentData = [
