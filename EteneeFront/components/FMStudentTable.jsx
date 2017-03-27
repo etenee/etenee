@@ -17,13 +17,13 @@ class FMStudentTable extends React.Component {
         }, {
           columns: [{
             header: 'OPS',
-            accessor: 'studyPlan'
+            id: 'ops',
+            accessor: d => d.curriculum.ops
           }]
         }, {
           columns: [{
             header: 'OP',
-            id: 'totalCredits',
-            accessor: d => d.totalCredits
+            accessor: 'totalCredits'
           }]
         }, {
           columns: [{
@@ -57,26 +57,10 @@ class FMStudentTable extends React.Component {
           }]
         }]
 
-        const fmStudentData = [
-          {lastName: 'Pietikäinen', firstName: 'Pentti', studyPlan: 'FM 2015', creditsAmount: 265, otherCredits: 40,
-          f1: '', f2: 'X', f3: 'X', f4: 'X', f5: ''},
-          {lastName: 'Virtanen', firstName: 'Matti', studyPlan: 'FM 2015', creditsAmount: 252, otherCredits: 45,
-          f1: 'X', f2: '', f3: 'X', f4: 'X', f5: 'X'},
-          {lastName: 'Virtanen', firstName: 'Liisa', studyPlan: 'FM 2016', creditsAmount: 225, otherCredits: 32,
-          f1: 'X', f2: 'X', f3: 'X', f4: 'X', f5: ''},
-          {lastName: 'Virtanen', firstName: 'Pertti', studyPlan: 'FM 2016', creditsAmount: 218, otherCredits: 30,
-          f1: 'X', f2: 'X', f3: 'X', f4: '', f5: ''},
-          {lastName: 'Kurri', firstName: 'Jari', studyPlan: 'FM 2014', creditsAmount: 302, otherCredits: 42,
-          f1: 'X', f2: 'X', f3: 'X', f4: 'X', f5: 'X'},
-          {lastName: 'Laurila', firstName: 'Juho', studyPlan: 'FM 2014', creditsAmount: 323, otherCredits: 40,
-          f1: 'X', f2: 'X', f3: 'X', f4: 'X', f5: 'X'},
-          {lastName: 'Keränen', firstName: 'Henri', studyPlan: 'FM 2014', creditsAmount: 319, otherCredits: 40,
-          f1: 'X', f2: 'X', f3: 'X', f4: '', f5: 'X'},
-        ]
         // _. alkuinen tarkoittaa aina lodash metodia
         //propseja pitäisi vielä korjata. Tulevat nyt pöljästi students
         //listana students objektin sisässä
-        const fmArray = _.filter(this.props.students.students, { "curriculum": {"ops": "FM"} });
+        const fmArray = _.filter(this.props.students.students, { "curriculum": {"ops": "FM14"} });
         //const fmColumnsArray = _.filter(this.props.students.students, { ""})
         console.log('filtered FM students from student list');
         console.log(fmArray);
