@@ -39,7 +39,7 @@ class LuKStudentTable extends React.Component {
       catch (error) {
         //console.log(error);
       }
-      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LUK"}})
+      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
       console.log('lukArray coming');
       console.log(this.props);
       return (
