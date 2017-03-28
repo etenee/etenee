@@ -24,8 +24,12 @@ class App extends Component {
     this.props = curriculumToState(dispatch)
     //this.props.dispatch(dataToRedux())
   };
+
    render() {
      const { studentsList, lukCurriculum } = this.props
+     /*const coursesArray = _.forEach(this.props.curriculum.lukCurriculum.courses, function(course){
+       console.log(course);
+     });*/
 
       return (
         <div>
@@ -35,7 +39,7 @@ class App extends Component {
           </div>
           <div>
             <div className="center-container">
-              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum}/>
+              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum}/>
               <FMStudentTable students = {studentsList}/>
             </div>
           </div>

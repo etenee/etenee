@@ -4,19 +4,30 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 
 class LuKStudentTable extends React.Component {
-  componentWillUpdate() {
-    console.log(this.props);
-    const curriculum = this.props.curriculum;
-    console.log('curriculum comin');
-    if (curriculum.courses !== undefined) {
-      curriculum.courses.forEach(function(course){
-        course.header = 'Nimi';
-        course.accessor = course.name;
-      });
+  constructor(props) {
+    super(props);
+    console.log(props);
+    this.state = {
+      courses: props.curriculum
     }
+    console.log('state coming');
+    console.log(this.state);
+  }
+  componentDidMount() {
+    const curriculum = this.props.curriculum
+    console.log('curri');
     console.log(curriculum);
   }
+  componentDidUpdate(courses) {
+    console.log('r')
+    console.log(courses);
+  }
    render() {
+     const courses = [];
+
+     const curAr = this.props.curriculum;
+     console.log('curar');
+     console.log(curAr);
       const lukStudentColumns = [{
       columns: [{
         header: 'Sukunimi',
@@ -27,7 +38,11 @@ class LuKStudentTable extends React.Component {
         accessor: 'firstName'
       }]
       }, {
-        //columns: curriculum.courses
+        columns: [{
+          render: row => (
+            this.props.curriculum.courses.map(course => <div>{course.name}</div>)
+          )
+        }]
       }]
 
       const lukStudentData = [
@@ -50,7 +65,8 @@ class LuKStudentTable extends React.Component {
       ]
 
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LUK"}})
-
+      console.log('lukArray coming');
+      console.log(this.props);
       return (
         <div className="lukTable">
           <h3 className="lukHeader">LuK-opiskelijat</h3>
