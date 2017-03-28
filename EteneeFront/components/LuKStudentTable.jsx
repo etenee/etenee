@@ -4,62 +4,42 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 
 class LuKStudentTable extends React.Component {
+  constructor(props) {
+    super(props);
+    console.log(props);
+    this.state = {
+      courses: []
+    }
+    console.log('state coming');
+    console.log(this.state);
+  }
    render() {
       const lukStudentColumns = [{
-        columns: [{
-          header: 'Sukunimi',
-          id: 'lastName',
-          accessor: d => d.lastName
-        }, {
-          header: 'Etunimi',
-          accessor: 'firstName'
-        }]
+      columns: [{
+        header: 'Sukunimi',
+        id: 'lastName',
+        accessor: d => d.lastName
       }, {
-        columns: [{
-          header: 'OPS',
-          id: 'ops',
-          accessor: d => d.curriculum.ops
-        }]
-      }, {
-        columns: [{
-          header: 'OP',
-          accessor: 'totalCredits'
-        }]
-      }, {
-        columns: [{
-          header: 'Muut',
-          accessor: 'otherCredits'
-        }]
-      }, {
-        columns: [{
-          header: 'K1',
-          accessor: 'k1'
-        }]
-      }, {
-        columns: [{
-          header: 'K2',
-          accessor: 'k2'
-        }]
-      }, {
-        columns: [{
-          header: 'K3',
-          accessor: 'k3'
-        }]
-      }, {
-        columns: [{
-          header: 'K4',
-          accessor: 'k4'
-        }]
-      }, {
-        columns: [{
-          header: 'K5',
-          accessor: 'k5'
+        header: 'Etunimi',
+        accessor: 'firstName'
         }]
       }]
-
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
-      //const lukColumns = _.map(this.props.studentsList.students, )
-
+      const curriculum = this.props.curriculum;
+      try {
+        _.forEach(curriculum.courses, function(course) {
+          course.header = course.name;
+          course.id = course.code
+          course.accessor = course.name;
+          lukStudentColumns[0].columns.push(course)
+        })
+        console.log('got columns');
+        console.log(lukStudentColumns);
+      }
+      catch (error) {
+        //console.log(error);
+      }
+      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LUK"}})
       return (
         <div className="lukTable">
           <h3 className="lukHeader">LuK-opiskelijat</h3>
