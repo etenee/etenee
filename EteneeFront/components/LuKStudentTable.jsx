@@ -67,6 +67,7 @@ class LuKStudentTable extends React.Component {
              data={lukArray}
              columns={lukStudentColumns}
              defaultPageSize={5}
+             showPagination={false}
            />
         </div>
       )

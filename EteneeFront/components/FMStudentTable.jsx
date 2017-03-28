@@ -72,7 +72,7 @@ class FMStudentTable extends React.Component {
                     data={fmArray}
                     columns={fmStudentColumns}
                     defaultPageSize={5}
-                    //showPagination pitäs saaha jotenki falseksi, se on tällä hetkellä true
+                    showPagination={false}
                 />
 
             </div>
