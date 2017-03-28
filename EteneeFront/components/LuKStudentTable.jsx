@@ -104,8 +104,8 @@ class LuKStudentTable extends React.Component {
           <ReactTable
              data={lukStudentData}
              columns={lukStudentColumns}
-             pageSizeOptions= {[15, 25, 50, 100]}
              defaultPageSize={15}
+             showPagination={false}
            />
         </div>
       )

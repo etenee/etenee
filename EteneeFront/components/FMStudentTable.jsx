@@ -80,6 +80,7 @@ class FMStudentTable extends React.Component {
                   columns={fmStudentColumns}
                   pageSizeOptions= {[15, 25, 50, 100]}
                   defaultPageSize={15}
+                  showPagination={false}
               />
             </div>
         )
