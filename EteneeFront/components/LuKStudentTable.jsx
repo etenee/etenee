@@ -24,7 +24,7 @@ class LuKStudentTable extends React.Component {
         accessor: 'firstName'
         }]
       }]
-      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
+
       const curriculum = this.props.curriculum;
       try {
         _.forEach(curriculum.courses, function(course) {
@@ -40,6 +40,8 @@ class LuKStudentTable extends React.Component {
         //console.log(error);
       }
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LUK"}})
+      console.log('lukArray coming');
+      console.log(this.props);
       return (
         <div className="lukTable">
           <h3 className="lukHeader">LuK-opiskelijat</h3>
@@ -47,7 +49,6 @@ class LuKStudentTable extends React.Component {
              data={lukArray}
              columns={lukStudentColumns}
              defaultPageSize={5}
-             showPagination={false}
            />
         </div>
       )

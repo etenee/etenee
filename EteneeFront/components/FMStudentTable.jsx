@@ -26,21 +26,32 @@ class FMStudentTable extends React.Component {
             accessor: 'totalCredits'
           }]
         }, {
+          columns: [{
             header: 'Muut',
             accessor: 'otherCredits'
+          }]
         }, {
+          columns: [{
             header: 'F1',
             accessor: 'f1'
+          }]
         }, {
+          columns: [{
             header: 'F2',
             accessor: 'f2'
+          }]
         }, {
+          columns: [{
             header: 'F3',
             accessor: 'f3'
+          }]
         }, {
+          columns: [{
             header: 'F4',
             accessor: 'f4'
+          }]
         }, {
+          columns: [{
             header: 'F5',
             accessor: 'f5'
           }]
