@@ -19,10 +19,24 @@ class LuKStudentTable extends React.Component {
         header: 'Sukunimi',
         id: 'lastName',
         accessor: d => d.lastName
-      }, {
+      },
+      {
         header: 'Etunimi',
         accessor: 'firstName'
-        }]
+      },
+      {
+        header: 'OPS',
+        id: 'ops',
+        accessor: d => d.curriculum.ops
+      },
+      {
+        header: 'OP',
+        accessor: 'totalCredits'
+      },
+      {
+        header: 'Muut',
+        accessor: 'otherCredits'
+      }]
       }]
 
       const curriculum = this.props.curriculum;
