@@ -8,7 +8,13 @@
     {"code": 12345,
     "date": "11-06-1989",
     "name": "Johdatus ohjelmointiin",
-    "credits": 5}
+    "credits": 5
+    },
+    {"code":"810136P",
+      "date": "11-06-1989",
+      "name": "Johdatus tietojenkäsittelytieteisiin",
+      "credits": 5
+    }
     ],
   "courses": [{
     "code": 123456,
@@ -17,7 +23,7 @@
     "credits": 5
     }],
   "curriculum": {
-    "ops": "FM14",
+    "ops": "LuK14",
     "version": "2012"
     }
   },
