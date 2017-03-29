@@ -6,12 +6,6 @@ import { ReactTableDefaults } from 'react-table'
 class LuKStudentTable extends React.Component {
   constructor(props) {
     super(props);
-    console.log(props);
-    this.state = {
-      courses: []
-    }
-    console.log('state coming');
-    console.log(this.state);
   }
    render() {
       const lukStudentColumns = [{
