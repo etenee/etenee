@@ -14,12 +14,7 @@ import studentModule from './reducers/reducers.js';
 //let store = createStore()
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(studentModule, /* preloadedState, */ composeEnhancers(applyMiddleware(thunk)));
-//export default compose(applyMiddleware(thunk))(createStore)(studentModule);
-/*const store = createStore(studentModule,
-    compose(applyMiddleware(thunk)),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
-//let store = applyMiddleware(thunk)(createStore)(studentModule, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())*/
-//let store = createStore(studentModule, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+
 let rootElement = document.getElementById('app')
 
 render(
