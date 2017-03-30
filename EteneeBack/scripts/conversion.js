@@ -25,6 +25,6 @@ let curriculumArray = [
 
     for (course of coursesArray) {
       //db.run('INSERT INTO '+ curriculumName +' VALUES ('course.credits ',"'course.code'","'course.name'")');
-      db.run('INSERT INTO ' + curriculumName + ' VALUES ('+course.credits+',"'+course.code+'","'+course.name+'");' );
+      db.run('INSERT OR REPLACE INTO ' + curriculumName + ' VALUES ('+course.credits+',"'+course.code+'","'+course.name+'");' );
     }
   };
