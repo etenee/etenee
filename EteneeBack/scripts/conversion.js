@@ -20,7 +20,7 @@ let curriculumArray = [
     let curriculumName = value.name;
     let coursesArray = value.data.courses;
     db.serialize(function() {
-      db.run('CREATE TABLE if not exists ' + value.name + '(credits integer, code varchar(20), name varchar(30))');
+      db.run('CREATE TABLE if not exists ' + value.name + '(credits integer, code varchar(20) PRIMARY KEY NOT NULL, name varchar(30))');
     });
 
     for (course of coursesArray) {
