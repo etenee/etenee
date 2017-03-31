@@ -10,11 +10,13 @@ class LuKStudentTable extends React.Component {
    render() {
       const lukStudentColumns = [{
       columns: [{
+        className: 'lastN',
         header: 'Sukunimi',
         id: 'lastName',
         accessor: d => d.lastName
       },
       {
+        className: 'firstN',
         header: 'Etunimi',
         accessor: 'firstName'
       },
@@ -56,7 +58,13 @@ class LuKStudentTable extends React.Component {
           <ReactTable
              data={lukArray}
              columns={lukStudentColumns}
-             defaultPageSize={5}
+             defaultPageSize={15}
+             showPagination={false}
+             hasHeaderGroups={false}
+             defaultSorting={[{
+               id: 'lastName',
+               asc: true
+             }]}
            />
         </div>
       )
