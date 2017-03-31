@@ -9,7 +9,7 @@ import {bindActionCreators} from 'redux';
 
 import LuKStudentTable from './components/LuKStudentTable.jsx'
 import FMStudentTable from './components/FMStudentTable.jsx'
-import { dataToRedux, curriculumToState } from './actions/actions.js';
+import { dataToRedux, curriculumToState, passedCoursesToState } from './actions/actions.js';
 import { getDataSuccess } from './actions/actions.js';
 
 import { getStudents } from './actions/actions.js';
@@ -22,11 +22,12 @@ class App extends Component {
     //const mapDispatchToProps = dispatch => ({dataToRedux: () => dispatch(dataToRedux())})
     this.props = dataToRedux(dispatch)
     this.props = curriculumToState(dispatch)
+    this.props = passedCoursesToState(dispatch)
     //this.props.dispatch(dataToRedux())
   };
 
    render() {
-     const { studentsList, lukCurriculum } = this.props
+     const { studentsList, lukCurriculum, lukPassedCourses } = this.props
      /*const coursesArray = _.forEach(this.props.curriculum.lukCurriculum.courses, function(course){
        console.log(course);
      });*/
@@ -39,7 +40,7 @@ class App extends Component {
           </div>
           <div>
             <div className="center-container">
-              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum}/>
+              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum} passedCourses = {lukPassedCourses.lukPassedCourses}/>
               <FMStudentTable students = {studentsList}/>
             </div>
           </div>
@@ -53,7 +54,8 @@ function select(state) {
   console.log(state);
   return {
     studentsList: state.students,
-    lukCurriculum: state.lukCurriculum
+    lukCurriculum: state.lukCurriculum,
+    lukPassedCourses: state.lukPassedCourses
   }
 }
 

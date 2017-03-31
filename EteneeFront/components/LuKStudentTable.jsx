@@ -9,28 +9,28 @@ class LuKStudentTable extends React.Component {
   }
    render() {
       const lukStudentColumns = [{
-      columns: [{
-        header: 'Sukunimi',
-        id: 'lastName',
-        accessor: d => d.lastName
-      },
-      {
-        header: 'Etunimi',
-        accessor: 'firstName'
-      },
-      {
-        header: 'OPS',
-        id: 'ops',
-        accessor: d => d.curriculum.ops
-      },
-      {
-        header: 'OP',
-        accessor: 'totalCredits'
-      },
-      {
-        header: 'Muut',
-        accessor: 'otherCredits'
-      }]
+        columns: [{
+          header: 'Sukunimi',
+          id: 'lastName',
+          accessor: d => d.lastName
+        },
+        {
+          header: 'Etunimi',
+          accessor: 'firstName'
+        },
+        {
+          header: 'OPS',
+          id: 'ops',
+          accessor: d => d.curriculum.ops
+        },
+        {
+          header: 'OP',
+          accessor: 'totalCredits'
+        },
+        {
+          header: 'Muut',
+          accessor: 'otherCredits'
+        }]
       }]
 
       const curriculum = this.props.curriculum;
@@ -47,9 +47,20 @@ class LuKStudentTable extends React.Component {
       catch (error) {
         //console.log(error);
       }
+      const passedCourses = this.props.passedCourses;
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
-      console.log('lukArray coming');
-      console.log(this.props);
+      try {
+        // tää another try catch tulee kyllä consoleen mutta jotainhan tossa foreachissa
+        // menee vihkoon koska tuo seuraava console.log ei tuu consoleen
+        console.log('ANOTHER TRY CATCH')
+        _forEach(curriculum.passedCourses, function(passedCourse) {
+          lukArray[0].data.push(passedCourse)
+        })
+        console.log('DATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
+        console.log(lukArray)
+      }
+      catch (error) {}
+
       return (
         <div className="lukTable">
           <h3 className="lukHeader">LuK-opiskelijat</h3>
@@ -57,6 +68,7 @@ class LuKStudentTable extends React.Component {
              data={lukArray}
              columns={lukStudentColumns}
              defaultPageSize={5}
+             showPagination={false}
            />
         </div>
       )
