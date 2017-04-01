@@ -57,7 +57,7 @@ class LuKStudentTable extends React.Component {
           lukArray[0].data.push(passedCourse)
         })
         console.log('DATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
-        console.log(lukArray)
+        console.log('lukArray')
       }
       catch (error) {}
 
@@ -69,6 +69,7 @@ class LuKStudentTable extends React.Component {
              columns={lukStudentColumns}
              defaultPageSize={5}
              showPagination={false}
+             minRows={lukArray.length}
            />
         </div>
       )
