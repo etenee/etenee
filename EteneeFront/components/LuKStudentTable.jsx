@@ -44,15 +44,17 @@ class LuKStudentTable extends React.Component {
         console.log('got columns');
         console.log(lukStudentColumns);
       }
-      catch (error) {
-        //console.log(error);
-      }
+      catch (error) {}
+
       const passedCourses = this.props.passedCourses;
+      const passingDate = _.filter(this.props.passedCourses, "date")
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
+      
       try {
-        // tää another try catch tulee kyllä consoleen mutta jotainhan tossa foreachissa
-        // menee vihkoon koska tuo seuraava console.log ei tuu consoleen
-        console.log('ANOTHER TRY CATCH')
+        // passedcourses tulee consoleen
+        // passingdate ei worki
+        console.log('passed courses:', passedCourses)
+        console.log('passing dates:', passingDate)
         _forEach(curriculum.passedCourses, function(passedCourse) {
           lukArray[0].data.push(passedCourse)
         })

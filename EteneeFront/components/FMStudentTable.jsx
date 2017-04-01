@@ -71,7 +71,7 @@ class FMStudentTable extends React.Component {
                 <ReactTable
                     data={fmArray}
                     columns={fmStudentColumns}
-                    defaultPageSize={50}
+                    defaultPageSize={5}
                     showPagination={false}
                 />
 
