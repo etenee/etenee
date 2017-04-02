@@ -6,6 +6,21 @@ div.rt-td:hover {
     background-color: lightyellow;
 }
 
+.lastN, .firstN {
+    text-align: left;
+}
+
+/*div.rt-td {
+    max-width: 60px;
+}*/
+
+div.rt-thead.-header {
+    background-color: grey;
+    color: white;
+}
+
+.rt-tr-group:nth-child(even) {background-color: #f2f2f2}
+
 .searchBar {
     color: gray;
     margin: 0 10% 0 0;
@@ -20,8 +35,12 @@ div.rt-td:hover {
 }
 
 .lukHeader {
-    position: fixed;
-    top: 50px;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .tooltip {
@@ -39,7 +58,7 @@ div.rt-td:hover {
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
- 
+
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
@@ -49,4 +68,3 @@ div.rt-td:hover {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-

@@ -9,28 +9,30 @@ class LuKStudentTable extends React.Component {
   }
    render() {
       const lukStudentColumns = [{
-        columns: [{
-          header: 'Sukunimi',
-          id: 'lastName',
-          accessor: d => d.lastName
-        },
-        {
-          header: 'Etunimi',
-          accessor: 'firstName'
-        },
-        {
-          header: 'OPS',
-          id: 'ops',
-          accessor: d => d.curriculum.ops
-        },
-        {
-          header: 'OP',
-          accessor: 'totalCredits'
-        },
-        {
-          header: 'Muut',
-          accessor: 'otherCredits'
-        }]
+      columns: [{
+        className: 'lastN',
+        header: 'Sukunimi',
+        id: 'lastName',
+        accessor: d => d.lastName
+      },
+      {
+        className: 'firstN',
+        header: 'Etunimi',
+        accessor: 'firstName'
+      },
+      {
+        header: 'OPS',
+        id: 'ops',
+        accessor: d => d.curriculum.ops
+      },
+      {
+        header: 'OP',
+        accessor: 'totalCredits'
+      },
+      {
+        header: 'Muut',
+        accessor: 'otherCredits'
+      }]
       }]
 
       const curriculum = this.props.curriculum;
@@ -49,7 +51,7 @@ class LuKStudentTable extends React.Component {
       const passedCourses = this.props.passedCourses;
       const passingDate = _.filter(this.passedCourses, "date")
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
-      
+
       try {
         // passedcourses tulee consoleen
         // passingdate ei worki
@@ -69,8 +71,13 @@ class LuKStudentTable extends React.Component {
           <ReactTable
              data={lukArray}
              columns={lukStudentColumns}
-             defaultPageSize={5}
+             defaultPageSize={15}
              showPagination={false}
+             hasHeaderGroups={false}
+             defaultSorting={[{
+               id: 'lastName',
+               asc: true
+             }]}
              minRows={lukArray.length}
            />
         </div>
