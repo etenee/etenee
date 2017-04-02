@@ -47,7 +47,7 @@ class LuKStudentTable extends React.Component {
       catch (error) {}
 
       const passedCourses = this.props.passedCourses;
-      const passingDate = _.filter(this.props.passedCourses, "date")
+      const passingDate = _.filter(this.passedCourses, "date")
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
       
       try {
@@ -58,8 +58,8 @@ class LuKStudentTable extends React.Component {
         _forEach(curriculum.passedCourses, function(passedCourse) {
           lukArray[0].data.push(passedCourse)
         })
+        // ei tuu consoleen, eli foreachissa jotai vikana
         console.log('DATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
-        console.log('lukArray')
       }
       catch (error) {}
 
