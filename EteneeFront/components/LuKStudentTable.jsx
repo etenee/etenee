@@ -46,12 +46,25 @@ class LuKStudentTable extends React.Component {
         console.log('got columns');
         console.log(lukStudentColumns);
       }
-      catch (error) {
-        //console.log(error);
-      }
+      catch (error) {}
+
+      const passedCourses = this.props.passedCourses;
+      const passingDate = _.filter(this.props.passedCourses, "date")
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
-      console.log('lukArray coming');
-      console.log(this.props);
+
+      try {
+        // passedcourses tulee consoleen
+        // passingdate ei worki
+        console.log('passed courses:', passedCourses)
+        console.log('passing dates:', passingDate)
+        _forEach(curriculum.passedCourses, function(passedCourse) {
+          lukArray[0].data.push(passedCourse)
+        })
+        console.log('DATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
+        console.log('lukArray')
+      }
+      catch (error) {}
+
       return (
         <div className="lukTable">
           <h3 className="lukHeader">LuK-opiskelijat</h3>
@@ -65,6 +78,7 @@ class LuKStudentTable extends React.Component {
                id: 'lastName',
                asc: true
              }]}
+             minRows={lukArray.length}
            />
         </div>
       )
