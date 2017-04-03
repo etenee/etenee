@@ -9,39 +9,39 @@ class LuKStudentTable extends React.Component {
   }
    render() {
       const lukStudentColumns = [{
-      columns: [{
-        className: 'lastN',
-        header: 'Sukunimi',
-        id: 'lastName',
-        accessor: d => d.lastName
-      },
-      {
-        className: 'firstN',
-        header: 'Etunimi',
-        accessor: 'firstName'
-      },
-      {
-        header: 'OPS',
-        id: 'ops',
-        accessor: d => d.curriculum.ops
-      },
-      {
-        header: 'OP',
-        accessor: 'totalCredits'
-      },
-      {
-        header: 'Muut',
-        accessor: 'otherCredits'
-      }]
+        columns: [{
+          className: 'lastN',
+          header: 'Sukunimi',
+          id: 'lastName',
+          accessor: d => d.lastName
+        },
+        {
+          className: 'firstN',
+          header: 'Etunimi',
+          accessor: 'firstName'
+        },
+        {
+          header: 'OPS',
+          id: 'ops',
+          accessor: d => d.curriculum.ops
+        },
+        {
+          header: 'OP',
+          accessor: 'totalCredits'
+        },
+        {
+          header: 'Muut',
+          accessor: 'otherCredits'
+        }]
       }]
 
       const curriculum = this.props.curriculum;
       try {
         _.forEach(curriculum.courses, function(course) {
           course.header = course.name;
-          course.id = course.code
+          course.id = course.code;
           course.accessor = course.name;
-          lukStudentColumns[0].columns.push(course)
+          lukStudentColumns[0].columns.push(course);
         })
         console.log('got columns');
         console.log(lukStudentColumns);
@@ -51,7 +51,17 @@ class LuKStudentTable extends React.Component {
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
       const passedCourses = _.map(this.props.students.students, "passedCourses");
       console.log('passedCourses:', passedCourses);
-      console.log('lukArray:',lukArray);
+      console.log('lukArray:', lukArray);
+      try {
+        _.forEach(passedCourses.name, function(passedCourse){
+          passedCourse.header = passedCourse.name;
+          passedCourse.id = passedCourse.code;
+          passedCourse.accessor = passedCourse.name;
+          lukArray[0].data.push(passedCourse);
+        })
+        console.log('got passed courses', lukArray);
+      }
+      catch (error) {}
 
       // alla oleva valittaa opsista
       // lukArray.push(passedCourses);

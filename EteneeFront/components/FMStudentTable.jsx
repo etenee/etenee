@@ -62,8 +62,7 @@ class FMStudentTable extends React.Component {
         //listana students objektin sisässä
         const fmArray = _.filter(this.props.students.students, { "curriculum": {"ops": "FM14"} });
         //const fmColumnsArray = _.filter(this.props.students.students, { ""})
-        console.log('filtered FM students from student list');
-        console.log(fmArray);
+        console.log('fmArray:', fmArray);
 
         return (
             <div>
