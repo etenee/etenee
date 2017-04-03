@@ -50,13 +50,11 @@ class LuKStudentTable extends React.Component {
 
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
       const passedCourses = _.map(this.props.students.students, "passedCourses");
-      if (this.passedCourses === this.lukStudentsColumns) {
-        // lukArray[0].push('X');
-        console.log('passedCourses on lista, ja lukArray on lista olioita, niin ei voi pushata listaa olioon');
-        console.log('push on tarkotettu listoille. ts. pitäs muuttaa lukArrayn oliot listoiksi tai keksiä joku muu keino')
-      }
       console.log('passedCourses:', passedCourses);
       console.log('lukArray:',lukArray);
+
+      // alla oleva valittaa opsista
+      // lukArray.push(passedCourses);
 
       return (
         <div className="lukTable">
