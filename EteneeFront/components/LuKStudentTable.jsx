@@ -52,19 +52,23 @@ class LuKStudentTable extends React.Component {
       const passedCourses = _.map(this.props.students.students, "passedCourses");
       console.log('passedCourses:', passedCourses);
       console.log('lukArray:', lukArray);
-      try {
-        _.forEach(passedCourses.name, function(passedCourse){
-          passedCourse.header = passedCourse.name;
-          passedCourse.id = passedCourse.code;
-          passedCourse.accessor = passedCourse.name;
-          lukArray[0].data.push(passedCourse);
-        })
-        console.log('got passed courses', lukArray);
-      }
-      catch (error) {}
-
-      // alla oleva valittaa opsista
-      // lukArray.push(passedCourses);
+      // try {
+      //   _.forEach(passedCourses, function(passedCourse){
+      //     passedCourse.header = passedCourse.name;
+      //     passedCourse.id = passedCourse.code;
+      //     passedCourse.accessor = passedCourse.name;
+      //     lukArray.push({passedCourse});
+      //   })
+      //   console.log('got passed courses', lukArray);
+      // }
+      // catch (error) {}
+      console.log(passedCourses.name)
+      // for (let i of passedCourses) {
+      //   passedCourses[i].header = passedCourses.name;
+      //   passedCourses[i].id = passedCourses.code;
+      //   passedCourses[i].accessor = passedCourses.name;
+      //   lukArray.push(passedCourses[i]);
+      // }
 
       return (
         <div className="lukTable">
