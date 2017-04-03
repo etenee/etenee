@@ -73,6 +73,8 @@ class FMStudentTable extends React.Component {
                     columns={fmStudentColumns}
                     defaultPageSize={5}
                     showPagination={false}
+                    // minRows={lukArray.length}
+                    hasHeaderGroups={false}
                 />
 
             </div>

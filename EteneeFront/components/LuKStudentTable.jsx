@@ -48,22 +48,15 @@ class LuKStudentTable extends React.Component {
       }
       catch (error) {}
 
-      const passedCourses = this.props.passedCourses;
-      const passingDate = _.filter(this.passedCourses, "date")
-      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}})
-
-      try {
-        // passedcourses tulee consoleen
-        // passingdate ei worki
-        console.log('passed courses:', passedCourses)
-        console.log('passing dates:', passingDate)
-        _forEach(curriculum.passedCourses, function(passedCourse) {
-          lukArray[0].data.push(passedCourse)
-        })
-        // ei tuu consoleen, eli foreachissa jotai vikana
-        console.log('DATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa');
+      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
+      const passedCourses = _.map(this.props.students.students, "passedCourses");
+      if (this.passedCourses === this.lukStudentsColumns) {
+        // lukArray[0].push('X');
+        console.log('passedCourses on lista, ja lukArray on lista olioita, niin ei voi pushata listaa olioon');
+        console.log('push on tarkotettu listoille. ts. pitäs muuttaa lukArrayn oliot listoiksi tai keksiä joku muu keino')
       }
-      catch (error) {}
+      console.log('passedCourses:', passedCourses);
+      console.log('lukArray:',lukArray);
 
       return (
         <div className="lukTable">
