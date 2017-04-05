@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 //import {connect} from 'react-redux'
 import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
+import ReactTooltip from 'react-tooltip'
 
 import StudentInfo from './studentInfo.jsx'
 
@@ -39,13 +40,13 @@ class LuKStudentTable extends React.Component {
         }]
       }]
 
-      const StudentInfo = this.props.students;
       const curriculum = this.props.curriculum;
       try {
         _.forEach(curriculum.courses, function(course) {
           course.header = course.name;
           course.id = course.code;
           course.accessor = course.name;
+          // course.render = props => <p data-tip="hoi"></p>;
           course.minWidth = 35;
           course.headerClassName = 'courseH';
           lukStudentColumns[0].columns.push(course);
@@ -98,6 +99,7 @@ class LuKStudentTable extends React.Component {
                )
              }}
            />
+           <ReactTooltip />
         </div>
       )
    }
