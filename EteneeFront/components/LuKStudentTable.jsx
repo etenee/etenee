@@ -3,6 +3,8 @@ import React, { Component } from 'react'
 import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 
+import StudentInfo from './studentInfo.jsx'
+
 class LuKStudentTable extends React.Component {
   constructor(props) {
     super(props);
@@ -35,6 +37,7 @@ class LuKStudentTable extends React.Component {
         }]
       }]
 
+      const StudentInfo = this.props.students;
       const curriculum = this.props.curriculum;
       try {
         _.forEach(curriculum.courses, function(course) {
@@ -76,7 +79,6 @@ class LuKStudentTable extends React.Component {
           <ReactTable
              data={lukArray}
              columns={lukStudentColumns}
-             defaultPageSize={15}
              showPagination={false}
              hasHeaderGroups={false}
              defaultSorting={[{
@@ -84,6 +86,13 @@ class LuKStudentTable extends React.Component {
                asc: true
              }]}
              minRows={lukArray.length}
+             SubComponent={(row) => {
+              return (
+                <div>
+                  hi 
+                </div>
+              )
+             }}
            />
         </div>
       )
