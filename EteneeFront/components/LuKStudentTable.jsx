@@ -27,11 +27,13 @@ class LuKStudentTable extends React.Component {
         },
         {
           header: 'OP',
-          accessor: 'totalCredits'
+          accessor: 'totalCredits',
+          minWidth: 55
         },
         {
           header: 'Muut',
-          accessor: 'otherCredits'
+          accessor: 'otherCredits',
+          minWidth: 55
         }]
       }]
 
@@ -41,6 +43,8 @@ class LuKStudentTable extends React.Component {
           course.header = course.name;
           course.id = course.code;
           course.accessor = course.name;
+          course.minWidth = 35;
+          course.headerClassName = 'courseH';
           lukStudentColumns[0].columns.push(course);
         })
         console.log('got columns');
@@ -84,6 +88,13 @@ class LuKStudentTable extends React.Component {
                asc: true
              }]}
              minRows={lukArray.length}
+             SubComponent={(row) => {
+               return (
+                 <div>
+                   Mitä tähän pitäisi laittaa?
+                 </div>
+               )
+             }}
            />
         </div>
       )
