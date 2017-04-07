@@ -48,11 +48,32 @@ app.get('/bachelorCurriculum/', function(req, res) {
 	res.json(bachelorCurriculum);
 });
 
-app.get('/db/', function(req, res) {
-  db.each('SELECT * from courses', function(err, row){
-    console.log(row.id + '' + row.code + '' + row.name);
-    res.json({id: row.id, code: row.code, name: row.name});
+/*app.get('/db/', function(req, res) {
+  const list = [];
+  db.each('SELECT * from students', function(err, row){
+    list.push(row);
+  },
+  function () {
+    res.json(list);
   })
+});*/
+
+app.get('/curriculums', function(req, res) {
+  const list = [];
+  db.each('SELECT * from curriculumGroup', function(err, row) {
+    list.push(row);
+  },
+  function() {
+    list.forEach(function(cell) {
+      cell.courses = [];
+      db.each('SELECT * FROM '+cell.curriculumName, function(err, row) {
+        cell.courses.push(row);
+      },
+      function() {
+        res.json(list);
+      });
+    });
+  });
 });
 
 
@@ -62,95 +83,7 @@ app.get('/wholedb/', function(req, res) {
   });
 });
 
-/*
-for (curriculum of group) {
-  //console.log(curriculum);
-  let name = curriculum.curriculumName
-  jsonExporter.json({table: JSON.stringify(name)}, function(err, result) {
-    chart.push({name: result});
-    //console.log(chart, group.length);
-  });
-}*/
 
-app.get('/curriculumGroup/', function(req, res) {
-  jsonExporter.json({table: 'curriculumGroup'}, function(err, data) {
-    const group = JSON.parse(data);
-    console.log(group);
-    chart = [];
-    for (curriculum of group) {
-      //console.log(curriculum);
-      let name = curriculum.curriculumName
-      jsonExporter.json({table: JSON.stringify(name)}, function(err, result) {
-        chart.push({name: result});
-        //console.log(chart, group.length);
-      });
-    }
-    res.json(chart);
-  });
-});
-
-app.get('/shit', function(req, res, next) {
-  let grouplist = [];
-  let curriculums = [];
-  async.series([
-    function(result) {
-      jsonExporter.json({table: 'curriculumGroup'}, function(err, data) {
-        grouplist = JSON.parse(data);
-      });
-      console.log('list');
-      result();
-    },
-    function(callback) {
-      for (curriculum of grouplist) {
-        //console.log(curriculum);
-        let name = curriculum.curriculumName
-        jsonExporter.json({table: JSON.stringify(name)}, function(err, result) {
-          curriculums.push({name: result});
-          //console.log(chart, group.length);
-        });
-      }
-      console.log('curriculums');
-      callback();
-    },
-    function(final) {
-      console.log('final');
-      res.json(curriculums);
-      final();
-    }
-  ]);
-});
-
-app.get('/group', function(req, res) {
-  let grup = [];
-  let group = new Promise(function(resolve,reject) {
-    let result = {};
-    jsonExporter.json({table: 'curriculumGroup'}, function(err, data) {
-      resolve(grup = JSON.parse(data));
-    });
-  });
-
-    let table = new Promise(function(resolve, reject) {
-      let chart = [];
-      for (curriculum of group) {
-        //console.log(curriculum);
-        let name = curriculum.curriculumName
-        jsonExporter.json({table: JSON.stringify(name)}, function(err, result) {
-          chart.push({name: result});
-          //console.log(chart, group.length);
-        });
-      }
-      resolve(chart);
-    });
-
-  let chart = new Promise(function(resolve, reject, input) {
-    let result = 'string';
-    console.log(input);
-  });
-
-  group.then(function(success) {
-    res.json(success);
-  });
-});
 
 app.get('/test', function (req, res) {
   let list = [1, 2, 4];
