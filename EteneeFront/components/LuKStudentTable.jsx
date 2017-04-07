@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 //import {connect} from 'react-redux'
 import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
-import ReactTooltip from 'react-tooltip'
 
 import StudentInfo from './studentInfo.jsx'
 
@@ -46,7 +45,6 @@ class LuKStudentTable extends React.Component {
           course.header = course.name;
           course.id = course.code;
           course.accessor = course.name;
-          // course.render = props => <p data-tip="hoi"></p>;
           course.minWidth = 35;
           course.headerClassName = 'courseH';
           lukStudentColumns[0].columns.push(course);
@@ -70,7 +68,8 @@ class LuKStudentTable extends React.Component {
       //   console.log('got passed courses', lukArray);
       // }
       // catch (error) {}
-      console.log(passedCourses.name)
+      const names = _.map(passedCourses, "name");
+      console.log(names);
       // for (let i of passedCourses) {
       //   passedCourses[i].header = passedCourses.name;
       //   passedCourses[i].id = passedCourses.code;
@@ -94,12 +93,11 @@ class LuKStudentTable extends React.Component {
              SubComponent={(row) => {
                return (
                  <div>
-                   Mitä tähän pitäisi laittaa?
+                   <p data-tip="hoi">Hei</p>
                  </div>
                )
              }}
            />
-           <ReactTooltip />
         </div>
       )
    }
