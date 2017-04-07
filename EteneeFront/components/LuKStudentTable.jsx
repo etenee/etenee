@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 //import {connect} from 'react-redux'
 import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
+import ReactTooltip from 'react-tooltip'
 
 import StudentInfo from './studentInfo.jsx'
 
@@ -42,7 +43,12 @@ class LuKStudentTable extends React.Component {
       const curriculum = this.props.curriculum;
       try {
         _.forEach(curriculum.courses, function(course) {
-          course.header = course.name;
+          course.header = (kurs) => (
+            <span data-tip={course.name}>
+              {course.name}
+              <ReactTooltip />
+           </span>
+          )
           course.id = course.code;
           course.accessor = course.name;
           course.minWidth = 35;
@@ -65,17 +71,27 @@ class LuKStudentTable extends React.Component {
           passedCoursesNames.push(course.name);
         }
       }
-      console.log(passedCoursesNames)
-      try {
-        _.forEach(passedCoursesNames, function(courseName) {
-          courseName.header = courseName.name;
-          courseName.accessor = courseName.name;
-          courseName.id = courseName.name;
-          lukArray.push(courseName);
-        })
-        console.log('lukArray2:',lukArray);
+      console.log('passed course names:', passedCoursesNames);
+
+      let passedCoursesDates = [];
+      for (let student of lukArray) {
+        for (let course of student.passedCourses) {
+          passedCoursesDates.push(course.date);
+        }
       }
-      catch(error){}
+      console.log('passed course dates:', passedCoursesDates);
+
+      
+      // try {
+      //   _.forEach(passedCoursesNames, function(courseName) {
+      //     courseName.header = courseName.name;
+      //     courseName.accessor = courseName.name;
+      //     courseName.id = courseName.name;
+      //     lukArray.push(courseName);
+      //   })
+      //   console.log('lukArray2:',lukArray);
+      // }
+      // catch(error){}
 
       return (
         <div className="lukTable">

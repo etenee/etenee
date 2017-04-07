@@ -6,7 +6,6 @@ require('isomorphic-fetch');
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {bindActionCreators} from 'redux';
-import ReactTooltip from 'react-tooltip'
 
 import LuKStudentTable from './components/LuKStudentTable.jsx'
 import FMStudentTable from './components/FMStudentTable.jsx'
@@ -43,7 +42,6 @@ class App extends Component {
             <div className="center-container">
               <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum} passedCourses = {lukPassedCourses.lukPassedCourses}/>
               <FMStudentTable students = {studentsList}/>
-              <ReactTooltip />
             </div>
           </div>
          </div>
