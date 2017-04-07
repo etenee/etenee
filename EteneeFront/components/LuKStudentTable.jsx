@@ -57,25 +57,25 @@ class LuKStudentTable extends React.Component {
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
       const passedCourses = _.map(this.props.students.students, "passedCourses");
       console.log('passedCourses:', passedCourses);
-      console.log('lukArray:', lukArray);
-      // try {
-      //   _.forEach(passedCourses, function(passedCourse){
-      //     passedCourse.header = passedCourse.name;
-      //     passedCourse.id = passedCourse.code;
-      //     passedCourse.accessor = passedCourse.name;
-      //     lukArray.push({passedCourse});
-      //   })
-      //   console.log('got passed courses', lukArray);
-      // }
-      // catch (error) {}
-      const names = _.map(passedCourses, "name");
-      console.log(names);
-      // for (let i of passedCourses) {
-      //   passedCourses[i].header = passedCourses.name;
-      //   passedCourses[i].id = passedCourses.code;
-      //   passedCourses[i].accessor = passedCourses.name;
-      //   lukArray.push(passedCourses[i]);
-      // }
+      console.log('lukArray1:', lukArray);
+
+      let passedCoursesNames = [];
+      for (let student of lukArray) {
+        for (let course of student.passedCourses) {
+          passedCoursesNames.push(course.name);
+        }
+      }
+      console.log(passedCoursesNames)
+      try {
+        _.forEach(passedCoursesNames, function(courseName) {
+          courseName.header = courseName.name;
+          courseName.accessor = courseName.name;
+          courseName.id = courseName.name;
+          lukArray.push(courseName);
+        })
+        console.log('lukArray2:',lukArray);
+      }
+      catch(error){}
 
       return (
         <div className="lukTable">
