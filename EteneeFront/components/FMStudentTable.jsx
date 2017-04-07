@@ -4,7 +4,22 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 
 class FMStudentTable extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: fetch('http://localhost:3001/curriculumGroup/', {
+        method: 'GET',
+        headers: {
+          Accept: 'application/json',
+        },
+      }).then((response) => response.json())
+    }
+  }
     render() {
+
+      console.log(Promise.resolve(this.state.data));
+
+
         const fmStudentColumns = [{
         columns: [{
           header: 'Sukunimi',
@@ -67,6 +82,7 @@ class FMStudentTable extends React.Component {
         return (
             <div>
               <h3>FM-opiskelijat</h3>
+              <h3>{this.state.data[0]}</h3>
                 <ReactTable
                     data={fmArray}
                     columns={fmStudentColumns}

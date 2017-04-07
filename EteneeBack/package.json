@@ -7,8 +7,13 @@
   "author": "Pekka Niiranen",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.3.0",
+    "bluebird": "^3.5.0",
     "express": "^4.14.1",
+    "moment": "^2.18.1",
     "nodemon": "^1.11.0",
+    "sqlite-json": "^1.0.1",
+    "sqlite-to-json": "^0.1.3",
     "sqlite3": "^3.1.8"
   }
 }
