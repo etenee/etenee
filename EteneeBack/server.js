@@ -10,6 +10,14 @@ var all = require ('./data/all.json');
 var bachelorCurriculum = require ('./data/curriculumLuk14.json');
 var sqlite3 = require('sqlite3').verbose()
 var db = new sqlite3.Database('./models/database.db')
+const async = require('async');
+const Promise = require('bluebird');
+const sqliteToJson = require('sqlite-to-json');
+const sqliteJSON = require('sqlite-json');
+const jsonExporter = sqliteJSON(db);
+const exporter = new sqliteToJson({
+  client: new sqlite3.Database('./models/database.db')
+});
 //var database = require('./models/database.db');
 
 //assign port
@@ -40,11 +48,56 @@ app.get('/bachelorCurriculum/', function(req, res) {
 	res.json(bachelorCurriculum);
 });
 
-app.get('/db/', function(req, res) {
-  db.each('SELECT * from courses', function(err, row){
-    console.log(row.id + '' + row.code + '' + row.name);
-    res.json({id: row.id, code: row.code, name: row.name});
+/*app.get('/db/', function(req, res) {
+  const list = [];
+  db.each('SELECT * from students', function(err, row){
+    list.push(row);
+  },
+  function () {
+    res.json(list);
   })
+});*/
+
+app.get('/curriculums', function(req, res) {
+  const list = [];
+  db.each('SELECT * from curriculumGroup', function(err, row) {
+    list.push(row);
+  },
+  function() {
+    list.forEach(function(cell) {
+      cell.courses = [];
+      db.each('SELECT * FROM '+cell.curriculumName, function(err, row) {
+        cell.courses.push(row);
+      },
+      function() {
+        res.json(list);
+      });
+    });
+  });
+});
+
+
+app.get('/wholedb/', function(req, res) {
+  exporter.all(function(err, all) {
+    res.json(all)
+  });
+});
+
+
+
+app.get('/test', function (req, res) {
+  let list = [1, 2, 4];
+  let promisq = new Promise(function(resolve, reject) {
+    value = 0;
+    for (i of list) {
+      value++
+    }
+    resolve(value);
+  });
+  promisq.then(function(success) {
+    console.log(success);
+    res.json(success);
+  });
 });
 
 //server will listen to port 3001
