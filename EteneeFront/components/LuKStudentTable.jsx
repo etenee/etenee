@@ -65,6 +65,9 @@ class LuKStudentTable extends React.Component {
       console.log('passedCourses:', passedCourses);
       console.log('lukArray1:', lukArray);
 
+      // const test = _.zipWith(lukArray, passedCourses, (lukArray, passedCourses)=> ({ lukArray, passedCourses }));
+      // console.log('test:',test);
+
       let passedCoursesNames = [];
       for (let student of lukArray) {
         for (let course of student.passedCourses) {
@@ -81,17 +84,17 @@ class LuKStudentTable extends React.Component {
       }
       console.log('passed course dates:', passedCoursesDates);
 
-      
-      // try {
-      //   _.forEach(passedCoursesNames, function(courseName) {
-      //     courseName.header = courseName.name;
-      //     courseName.accessor = courseName.name;
-      //     courseName.id = courseName.name;
-      //     lukArray.push(courseName);
-      //   })
-      //   console.log('lukArray2:',lukArray);
-      // }
-      // catch(error){}
+
+      try {
+        _.forEach(passedCoursesNames, function(courseName) {
+          courseName.header = this.courseName;
+          courseName.accessor = this.courseName;
+          courseName.id = this.courseName;
+          lukArray[0].data.push(courseName);
+        })
+        console.log('lukArray2:',lukArray);
+      }
+      catch(error){}
 
       return (
         <div className="lukTable">
