@@ -23,18 +23,10 @@ div.rt-thead.-header {
 
 .rt-tr-group:nth-child(even) {background-color: #f2f2f2}
 
-.searchBar {
-    color: gray;
-    margin: 0 10% 0 0;
-    float: right;
-    left: 20px;
-    border: 1px;
-    border-color: black;
-    border-style: solid;
-    padding:  2px 80px 2px 2px;
-    max-width: 130px;
-    box-shadow: 2px 2px 1px #888888;
+.lukHeader {
+    margin-top: 50px;
 }
+
 
 /* Show arrow next to the sorted header
 div.-sort-asc::after {

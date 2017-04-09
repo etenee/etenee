@@ -10,3 +10,14 @@
 .headline {
   margin-left: 10%;
 }
+
+.siteHeading {
+  float: left;
+  max-width: 66%;
+  margin-top: 0;
+}
+
+.toLoginPage {
+  float: right;
+  margin: 6 6 6 6;
+}

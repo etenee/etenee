@@ -37,9 +37,6 @@ class App extends Component {
         <div>
           <h1 className="siteHeading">Opiskelijoiden etenemisen seurantatyökalu</h1>
           <IndexLink className="toLoginPage" to='/'>Kirjaudu ulos</IndexLink>
-          <div className="searchBar">
-            Hae opiskelijaa...
-          </div>
           <div>
             <div className="center-container">
               <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum} passedCourses = {lukPassedCourses.lukPassedCourses}/>
