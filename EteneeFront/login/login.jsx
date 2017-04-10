@@ -9,7 +9,8 @@ class Login extends Component {
                 <br />
                 <img className="smallLogo" src="https://laturi.oulu.fi/style/logo-multi.png" />
                 <IndexLink className="toHomePage" to='/home'>Kirjaudu yliopiston tunnuksilla</IndexLink>
-                <p>HAKA LOGOA EI LÖYVY:D</p>
+                <br />
+                <img src="../assets/hakalogin.png" />
             </div>
         )
     }
