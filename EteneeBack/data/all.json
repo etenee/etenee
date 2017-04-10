@@ -4,6 +4,7 @@
   "id": 17299127,
   "totalCredits": 130,
   "otherCredits": 15,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 12345,
     "date": "11-06-1989",
@@ -32,6 +33,7 @@
   "id": 1234667,
   "totalCredits": 102,
   "otherCredits": 10,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 2345,
     "date": "11-06-2016",
@@ -54,6 +56,7 @@
   "id": 1875677,
   "totalCredits": 120,
   "otherCredits": 10,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -76,6 +79,7 @@
   "id": 1723785,
   "totalCredits": 10,
   "otherCredits": 0,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -98,6 +102,7 @@
   "id": 352316,
   "totalCredits": 80,
   "otherCredits": 5,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -120,6 +125,7 @@
   "id": 734521,
   "totalCredits": 72,
   "otherCredits": 10,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -142,6 +148,7 @@
   "id": 928374,
   "totalCredits": 88,
   "otherCredits": 7,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -164,6 +171,7 @@
   "id": 87654236,
   "totalCredits": 200,
   "otherCredits": 20,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 12345,
     "date": "11-06-1989",
@@ -186,6 +194,7 @@
   "id": 17923476,
   "totalCredits": 210,
   "otherCredits": 22,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 2345,
     "date": "11-06-2016",
@@ -208,6 +217,7 @@
   "id": 26603956,
   "totalCredits": 110,
   "otherCredits": 15,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -230,6 +240,7 @@
   "id": 26,
   "totalCredits": 10,
   "otherCredits": 0,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -252,6 +263,7 @@
   "id": 36,
   "totalCredits": 150,
   "otherCredits": 13,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -274,6 +286,7 @@
   "id": 3656,
   "totalCredits": 140,
   "otherCredits": 30,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",
@@ -296,6 +309,7 @@
   "id": 13478,
   "totalCredits": 102,
   "otherCredits": 11,
+  "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
     "date": "11-06-2016",

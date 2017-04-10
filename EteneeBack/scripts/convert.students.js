@@ -5,7 +5,7 @@ var all = require('.././data/all.json');
 
 db.serialize(function() {
   db.run('DROP TABLE IF EXISTS students;');
-  db.run('CREATE TABLE if not exists students (studentId integer PRIMARY KEY NOT NULL, firstName varchar(30), lastName varchar(30), totalCredits integer, otherCredits integer)');
+  db.run('CREATE TABLE if not exists students (studentId integer PRIMARY KEY NOT NULL, firstName varchar(30), lastName varchar(30), totalCredits integer, otherCredits integer, instructorId integer);');
 });
 
 /*for (let student of all.students) {
@@ -13,5 +13,5 @@ db.serialize(function() {
 }*/
 
 for (let student of all.students) {
-  db.run('INSERT OR REPLACE INTO students VALUES ('+student.id+', "'+student.firstName+'", "'+student.lastName+'", '+student.totalCredits+', '+student.otherCredits+');');
+  db.run('INSERT OR REPLACE INTO students VALUES ('+student.id+', "'+student.firstName+'", "'+student.lastName+'", '+student.totalCredits+', '+student.otherCredits+', '+student.instructorId+');');
 };
