@@ -4,7 +4,6 @@ import { GET_STUDENTS,
   GET_REQUEST, GET_DATA_SUCCESS,
   GET_DATA_ERROR,
   GET_LUK_CURRICULUM_SUCCESS,
-  GET_LUK_PASSEDCOURSES_SUCCESS,
   GET_CURRICULUM_GROUP_SUCCESS
 } from '../actions/actions.js';
 /*import { GET_REQUEST } from '../actions/actions.js';
@@ -56,20 +55,6 @@ function lukCurriculum (state = [], action) {
   }
 }
 
-function lukPassedCourses (state = [], action) {
-  switch (action.type) {
-    case "GET_LUK_PASSEDCOURSES_SUCCESS":
-      console.log('passed courses data success')
-      console.log(action.data);
-      return {
-        lukPassedCourses: action.data
-      };
-    default:
-      console.log('reducer got default');
-      return state;
-  }
-}
-
 function curriculumGroup (state = [], action) {
   switch (action.type) {
     case "GET_CURRICULUM_GROUP_SUCCESS":
@@ -98,7 +83,6 @@ function curriculumGroup (state = [], action) {
 const studentModule = combineReducers({
   lukCurriculum,
   students,
-  lukPassedCourses,
   curriculumGroup
 });
 

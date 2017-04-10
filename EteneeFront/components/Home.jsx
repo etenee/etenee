@@ -10,7 +10,7 @@ import { IndexLink } from 'react-router';
 
 import LuKStudentTable from './LuKStudentTable.jsx'
 import FMStudentTable from './FMStudentTable.jsx'
-import { dataToRedux, curriculumToState, passedCoursesToState, curriculumGroupToState } from '../actions/actions.js';
+import { dataToRedux, curriculumToState, curriculumGroupToState } from '../actions/actions.js';
 import { getDataSuccess } from '../actions/actions.js';
 import { getStudents } from '../actions/actions.js';
 
@@ -22,13 +22,12 @@ class App extends Component {
     //const mapDispatchToProps = dispatch => ({dataToRedux: () => dispatch(dataToRedux())})
     this.props = dataToRedux(dispatch)
     this.props = curriculumToState(dispatch)
-    this.props = passedCoursesToState(dispatch)
     this.props = curriculumGroupToState(dispatch)
     //this.props.dispatch(dataToRedux())
   };
 
    render() {
-     const { studentsList, lukCurriculum, lukPassedCourses, curriculumGroup } = this.props
+     const { studentsList, lukCurriculum, curriculumGroup } = this.props
      /*const coursesArray = _.forEach(this.props.curriculum.lukCurriculum.courses, function(course){
        console.log(course);
      });*/
@@ -39,7 +38,7 @@ class App extends Component {
           <IndexLink className="toLoginPage" to='/'>Kirjaudu ulos</IndexLink>
           <div>
             <div className="center-container">
-              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum} passedCourses = {lukPassedCourses.lukPassedCourses}/>
+              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum}/>
               <FMStudentTable students = {studentsList}/>
             </div>
           </div>
@@ -54,7 +53,6 @@ function select(state) {
   return {
     studentsList: state.students,
     lukCurriculum: state.lukCurriculum,
-    lukPassedCourses: state.lukPassedCourses,
     curriculumGroup: state.curriculumGroup
   }
 }
