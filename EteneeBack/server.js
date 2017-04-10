@@ -18,6 +18,8 @@ const jsonExporter = sqliteJSON(db);
 const exporter = new sqliteToJson({
   client: new sqlite3.Database('./models/database.db')
 });
+
+const populate = require('./custom_modules/populate.js');
 //var database = require('./models/database.db');
 
 //assign port
@@ -48,44 +50,24 @@ app.get('/bachelorCurriculum/', function(req, res) {
 	res.json(bachelorCurriculum);
 });
 
-/*app.get('/db/', function(req, res) {
-  const list = [];
-  db.each('SELECT * from students', function(err, row){
-    list.push(row);
-  },
-  function () {
-    res.json(list);
-  })
-});*/
-
 app.get('/curriculums', function(req, res) {
   const list = [];
   db.each('SELECT * from curriculumGroup', function(err, row) {
     list.push(row);
   },
-  function() {
-    list.forEach(function(cell) {
-      cell.courses = [];
-      db.each('SELECT * FROM '+cell.curriculumName, function(err, row) {
-        cell.courses.push(row);
-      },
-      function() {
-        res.json(list);
-      });
-    });
+  function (err, complete) {
+    if (err) {
+      console.log(err);
+    }
+    populate(list, function(response) {
+      if (response) {
+        res.json(response);
+      };
+    })
   });
 });
 
-
-app.get('/wholedb/', function(req, res) {
-  exporter.all(function(err, all) {
-    res.json(all)
-  });
-});
-
-
-
-app.get('/test', function (req, res) {
+/*app.get('/test', function (req, res) {
   let list = [1, 2, 4];
   let promisq = new Promise(function(resolve, reject) {
     value = 0;
@@ -98,7 +80,7 @@ app.get('/test', function (req, res) {
     console.log(success);
     res.json(success);
   });
-});
+});*/
 
 //server will listen to port 3001
 app.listen(3001);
