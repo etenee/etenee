@@ -84,16 +84,12 @@ class LuKStudentTable extends React.Component {
 
 
       try {
-        _.forEach(passedCourses, function(course) {
-          console.log('1');
+        _.forEach(passedCourses[0], function(course) {
           course.header = course.name;
-          console.log(course);
           course.accessor = course.name;
-          console.log('3');
           course.id = course.code;
-          console.log('4');
-          lukArray[0].data.push(course);
-          console.log('5');
+          console.log(course);
+          lukArray.data.push(course);
         })
         console.log('lukArray2:',lukArray);
       }
@@ -115,7 +111,7 @@ class LuKStudentTable extends React.Component {
              SubComponent={(row) => {
                return (
                  <div>
-                   <p data-tip="hoi">Hei</p>
+                     Juu
                  </div>
                )
              }}
