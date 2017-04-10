@@ -4,8 +4,6 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 import ReactTooltip from 'react-tooltip'
 
-import StudentInfo from './studentInfo.jsx'
-
 class LuKStudentTable extends React.Component {
   constructor(props) {
     super(props);
@@ -86,11 +84,16 @@ class LuKStudentTable extends React.Component {
 
 
       try {
-        _.forEach(passedCoursesNames, function(courseName) {
-          courseName.header = this.courseName;
-          courseName.accessor = this.courseName;
-          courseName.id = this.courseName;
-          lukArray[0].data.push(courseName);
+        _.forEach(passedCourses, function(course) {
+          console.log('1');
+          course.header = course.name;
+          console.log(course);
+          course.accessor = course.name;
+          console.log('3');
+          course.id = course.code;
+          console.log('4');
+          lukArray[0].data.push(course);
+          console.log('5');
         })
         console.log('lukArray2:',lukArray);
       }

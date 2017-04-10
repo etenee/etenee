@@ -5,15 +5,14 @@ require('es6-promise').polyfill();
 require('isomorphic-fetch');
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import {bindActionCreators} from 'redux';
+import { bindActionCreators } from 'redux';
 import { IndexLink } from 'react-router';
 
-import LuKStudentTable from './components/LuKStudentTable.jsx'
-import FMStudentTable from './components/FMStudentTable.jsx'
-import { dataToRedux, curriculumToState, passedCoursesToState, curriculumGroupToState } from './actions/actions.js';
-import { getDataSuccess } from './actions/actions.js';
-
-import { getStudents } from './actions/actions.js';
+import LuKStudentTable from './LuKStudentTable.jsx'
+import FMStudentTable from './FMStudentTable.jsx'
+import { dataToRedux, curriculumToState, passedCoursesToState, curriculumGroupToState } from '../actions/actions.js';
+import { getDataSuccess } from '../actions/actions.js';
+import { getStudents } from '../actions/actions.js';
 
 //import 'react-table/react-table.css' <-- VOI TEHDÄ MYÖS NÄIN
 
