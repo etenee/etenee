@@ -4,8 +4,6 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 import ReactTooltip from 'react-tooltip'
 
-import StudentInfo from './studentInfo.jsx'
-
 class LuKStudentTable extends React.Component {
   constructor(props) {
     super(props);

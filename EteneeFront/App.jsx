@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
 
-import Home from './Home.jsx'
+import Home from './components/Home.jsx'
 import Login from './login/login.jsx'
 
 class App extends Component {
