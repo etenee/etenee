@@ -7,7 +7,7 @@ var all = require('.././data/all.json');
 db.serialize(function() {
   db.run('DROP TABLE IF EXISTS passedCourses');
   //db.run('CREATE TABLE if not exists passedCourses (courseId varchar(20) PRIMARY KEY NOT NULL, FOREIGN KEY(studentId) REFERENCES students(studentId))');
-  db.run('CREATE TABLE if not exists passedCourses (courseId varchar(20) PRIMARY KEY NOT NULL, date TEXT, studentId integer);');
+  db.run('CREATE TABLE if not exists passedCourses (courseId varchar(20), date TEXT, studentId integer);');
 });
 
 /*for (let student of all.students) {
@@ -22,8 +22,11 @@ for (let student of all.students) {
     var superDate = moment(superDate).format('YYYY-MM-DD');
     var id = student.id;
     //var finalDate = Date.toDateString(superDate);
-    console.log(student.id + typeof(student.id));
-    db.run('INSERT OR REPLACE INTO passedCourses VALUES("'+course.code+'","'+superDate+'",'+student.id+');');
+    //console.log(student.id + typeof(student.id));
+    console.log('course code: ' + course.code);
+    console.log('course date: ' + superDate);
+    console.log('course student id: ' + student.id);
+    db.run('INSERT INTO passedCourses VALUES("'+course.code+'","'+superDate+'",'+student.id+');');
     //db.run('INSERT OR REPLACE INTO passedCourses VALUES ('+course.code+');');
   }
 };
