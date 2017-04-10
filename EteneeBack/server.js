@@ -20,6 +20,7 @@ const exporter = new sqliteToJson({
 });
 
 const populate = require('./custom_modules/populate.js');
+const passedCourses = require('./custom_modules/passedCoursesToStudents');
 //var database = require('./models/database.db');
 
 //assign port
@@ -42,8 +43,33 @@ app.get('/fm/', function(req, res) {
 	res.json(fm);
 });
 
-app.get('/students/', function(req, res) {
-	res.json(all);
+app.get('/joinTest', function(req, res) {
+  db.all('select * from students inner join passedCourses ON students.studentId = passedCourses.studentId', function(err, row) {
+    console.log(row);
+  },
+  function(err, complete) {
+    res.json(complete);
+  });
+});
+
+app.get('/studentsdb/', function(req, res) {
+	//res.json(all);
+  db.all('SELECT * FROM students', function(err, row) {
+    console.log(row);
+  },
+  function(err, complete) {
+    //console.log('complete');
+    const list = { students: complete }
+    passedCourses(list, function(response) {
+      if (response) {
+        res.json(response);
+      }
+    });
+  });
+});
+
+app.get('/students', function(req, res) {
+  res.json(all);
 });
 
 app.get('/bachelorCurriculum/', function(req, res) {
