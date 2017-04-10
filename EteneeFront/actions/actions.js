@@ -4,6 +4,7 @@ export const GET_DATA_SUCCESS = 'GET_DATA_SUCCESS';
 export const GET_DATA_ERROR = 'GET_DATA_ERROR';
 export const GET_LUK_CURRICULUM_SUCCESS = "GET_LUK_CURRICULUM_SUCCESS";
 export const GET_LUK_PASSEDCOURSES_SUCCESS = "GET_LUK_PASSEDCOURSES_SUCCESS";
+export const GET_CURRICULUM_GROUP_SUCCESS = "GET_CURRICULUM_GROUP_SUCCESS";
 
 let nextId = 1;
 
@@ -41,6 +42,32 @@ export function getDataError() {
   return {
     type: "GET_DATA_ERROR"
   }
+}
+
+export function fetchCurriculumGroup() {
+  const url = 'http://localhost:3001/curriculums/';
+  console.log('getting data');
+  return fetch(url, {
+    method: 'GET',
+    headers: {
+      Accept: 'application/json',
+    },
+  }).then((response) => response.json())
+}
+
+export function fetchCurriculumGroupSuccess(payload) {
+  console.log('success in getting curriculum group');
+  console.log(payload);
+  return {
+    type: 'GET_CURRICULUM_GROUP_SUCCESS',
+    data: payload,
+    id: nextId
+  }
+}
+
+export const curriculumGroupToState = dispatch => {
+  console.log('fetching Cgroup');
+  return fetchCurriculumGroup().then(response => dispatch(fetchCurriculumGroupSuccess(response)))
 }
 
 export function fetchCurriculum() {
