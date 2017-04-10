@@ -52,7 +52,8 @@ app.get('/bachelorCurriculum/', function(req, res) {
 
 app.get('/curriculums', function(req, res) {
   const list = [];
-  db.each('SELECT * from curriculumGroup', function(err, row) {
+  db.each('SELECT * from curriculumGroup',
+  function(err, row) {
     list.push(row);
   },
   function (err, complete) {
@@ -62,6 +63,7 @@ app.get('/curriculums', function(req, res) {
     populate(list, function(response) {
       if (response) {
         res.json(response);
+        console.log('curriculums sent');
       };
     })
   });
