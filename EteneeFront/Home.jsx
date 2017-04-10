@@ -10,7 +10,7 @@ import { IndexLink } from 'react-router';
 
 import LuKStudentTable from './components/LuKStudentTable.jsx'
 import FMStudentTable from './components/FMStudentTable.jsx'
-import { dataToRedux, curriculumToState, passedCoursesToState } from './actions/actions.js';
+import { dataToRedux, curriculumToState, passedCoursesToState, curriculumGroupToState } from './actions/actions.js';
 import { getDataSuccess } from './actions/actions.js';
 
 import { getStudents } from './actions/actions.js';
@@ -24,11 +24,12 @@ class App extends Component {
     this.props = dataToRedux(dispatch)
     this.props = curriculumToState(dispatch)
     this.props = passedCoursesToState(dispatch)
+    this.props = curriculumGroupToState(dispatch)
     //this.props.dispatch(dataToRedux())
   };
 
    render() {
-     const { studentsList, lukCurriculum, lukPassedCourses } = this.props
+     const { studentsList, lukCurriculum, lukPassedCourses, curriculumGroup } = this.props
      /*const coursesArray = _.forEach(this.props.curriculum.lukCurriculum.courses, function(course){
        console.log(course);
      });*/
@@ -54,7 +55,8 @@ function select(state) {
   return {
     studentsList: state.students,
     lukCurriculum: state.lukCurriculum,
-    lukPassedCourses: state.lukPassedCourses
+    lukPassedCourses: state.lukPassedCourses,
+    curriculumGroup: state.curriculumGroup
   }
 }
 
