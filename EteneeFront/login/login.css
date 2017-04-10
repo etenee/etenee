@@ -1,0 +1,19 @@
+.loginPage {
+    margin-left: 10%;
+}
+
+.mainLogo {
+    width: 800px;
+    height: 206px;
+}
+
+.smallLogo {
+    width: 36px;
+    height: 51px;
+}
+
+.toHomePage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
