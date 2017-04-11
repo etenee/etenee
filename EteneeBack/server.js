@@ -5,7 +5,7 @@ if (cluster.isMaster) {
   const os = require('os');
   console.log('Server type is ' + os.type());
   // Count the machine's CPUs
-  var cpuCount = require('os').cpus().length;
+  var cpuCount = os.cpus().length;
   // Create a worker for each CPU
   for (var i = 0; i < cpuCount; i += 1) {
     cluster.fork();
