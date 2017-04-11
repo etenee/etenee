@@ -2,6 +2,8 @@ let cluster = require('cluster');
 //divide the app to workers (node solution for multithreading), one for each machine CPU
 //this will improve speed and recovers from errors automatically
 if (cluster.isMaster) {
+  const os = require('os');
+  console.log('Server type is ' + os.type());
   // Count the machine's CPUs
   var cpuCount = require('os').cpus().length;
   // Create a worker for each CPU
