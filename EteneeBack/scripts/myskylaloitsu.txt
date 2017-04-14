@@ -1,0 +1,8 @@
+SELECT name, random() as r from surnames union all select name, random() from firstnames order by r;
+
+select * from (select name from firstnames order by random() limit 20) union all select * from (select name from surnames order by random() limit 20);
+
+
+SELECT name FROM firstnames
+ORDER BY RANDOM()
+LIMIT 1000;
