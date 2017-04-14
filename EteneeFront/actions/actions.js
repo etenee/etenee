@@ -1,3 +1,4 @@
+import config from '.././config/config.js';
 export const GET_STUDENTS = 'GET_STUDENTS';
 export const GET_REQUEST = 'GET_REQUEST';
 export const GET_DATA_SUCCESS = 'GET_DATA_SUCCESS';
@@ -16,7 +17,7 @@ export function getStudents (list) {
 };
 
 export function fetchData() {
-  const url = 'http://localhost:3001/students/';
+  const url = `${config.url}/students`;
   console.log('getting data');
   return fetch(url, {
     method: 'GET',
@@ -44,7 +45,7 @@ export function getDataError() {
 }
 
 export function fetchCurriculumGroup() {
-  const url = 'http://localhost:3001/curriculums/';
+  const url = `${config.url}/curriculums`;
   console.log('getting data');
   return fetch(url, {
     method: 'GET',
@@ -70,7 +71,7 @@ export const curriculumGroupToState = dispatch => {
 }
 
 export function fetchCurriculum() {
-  const url = 'http://localhost:3001/bachelorCurriculum/';
+  const url = `${config.url}/bachelorCurriculum`;
   console.log('getting data');
   return fetch(url, {
     method: 'GET',
