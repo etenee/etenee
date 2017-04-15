@@ -35,6 +35,11 @@ class LuKStudentTable extends React.Component {
           header: 'Muut',
           accessor: 'otherCredits',
           minWidth: 55
+        },
+        {
+          header: 'Omaopettaja',
+          accessor: 'instructorId',
+          minWidth: 55
         }]
       }]
 
@@ -48,7 +53,7 @@ class LuKStudentTable extends React.Component {
            </span>
           )
           course.id = course.code;
-          course.accessor = course.name;
+          course.accessor = 'passedCourses[0].date'; 
           course.minWidth = 35;
           course.headerClassName = 'courseH';
           lukStudentColumns[0].columns.push(course);
@@ -72,7 +77,6 @@ class LuKStudentTable extends React.Component {
           passedCoursesNames.push(course.name);
         }
       }
-      console.log('passed course names:', passedCoursesNames);
 
       let passedCoursesDates = [];
       for (let student of lukArray) {
@@ -80,8 +84,6 @@ class LuKStudentTable extends React.Component {
           passedCoursesDates.push(course.date);
         }
       }
-      console.log('passed course dates:', passedCoursesDates);
-
 
       try {
         _.forEach(passedCourses[0], function(course) {
@@ -89,7 +91,7 @@ class LuKStudentTable extends React.Component {
           course.accessor = course.name;
           course.id = course.code;
           console.log(course);
-          lukArray.data.push(course);
+          lukArray[0].curriculum.ops.push(course);
         })
         console.log('lukArray2:',lukArray);
       }
@@ -111,7 +113,14 @@ class LuKStudentTable extends React.Component {
              SubComponent={(row) => {
                return (
                  <div>
-                     Juu
+                     <ul>
+                       <li>
+                         Opiskelijanumero: {row.row.id}
+                        </li>
+                        <li>
+                         Sähköposti: {row.row.email}
+                        </li>
+                      </ul>
                  </div>
                )
              }}
