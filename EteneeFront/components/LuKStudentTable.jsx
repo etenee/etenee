@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 import ReactTooltip from 'react-tooltip'
+import moment from 'moment'
 
 class LuKStudentTable extends React.Component {
   constructor(props) {
@@ -37,41 +38,75 @@ class LuKStudentTable extends React.Component {
           minWidth: 55
         },
         {
-          header: 'Omaopettaja',
+          headerClassName: 'omaOpet',
+          header: () => (
+            <span data-tip="Omaopettaja">
+              Omaopettaja
+              <ReactTooltip />
+            </span>
+          ),
           accessor: 'instructorId',
           minWidth: 55
+          // show: false
         }]
       }]
 
+      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
       const curriculum = this.props.curriculum;
+      var i = 0;
+      var j = 0;
+
+      console.log('ASDFASADFSAD', lukArray)
+
       try {
         _.forEach(curriculum.courses, function(course) {
-          course.header = (kurs) => (
+          course.header = () => (
             <span data-tip={course.name}>
               {course.name}
               <ReactTooltip />
            </span>
           )
           course.id = course.code;
-          course.accessor = 'passedCourses[0].date'; 
-          course.minWidth = 35;
+          for (i = 0; i < lukArray.length; i++) {
+            if (course.code === lukArray[i].passedCourses[0].code) {
+                course.accessor = 'passedCourses[0].date'
+            }
+          }
+          course.minWidth = 105;
           course.headerClassName = 'courseH';
           lukStudentColumns[0].columns.push(course);
+          /*course.render = row => (
+            <div
+              style={{
+                width: '100%',
+                height: '100%'
+              }}
+            >
+            <div
+              style={{
+                height: '100%',
+                backgroundColor: diffToThisDay(row.value) > 31 ? '#CCFFCC'
+                : diffToThisDay(row.value) > 0 && diffToThisDay(row.value) < 30 ? '#00FF00'
+                : 'null'
+              }}
+            />
+            </div>
+        )*/
         })
         console.log('got columns');
         console.log(lukStudentColumns);
       }
       catch (error) {}
 
-      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
-      const passedCourses = _.map(this.props.students.students, "passedCourses");
-      console.log('passedCourses:', passedCourses);
-      console.log('lukArray1:', lukArray);
+      // const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
+      // const passedCourses = _.map(this.props.students.students, "passedCourses");
+      // console.log('passedCourses:', passedCourses);
+      // console.log('lukArray1:', lukArray);
 
       // const test = _.zipWith(lukArray, passedCourses, (lukArray, passedCourses)=> ({ lukArray, passedCourses }));
       // console.log('test:',test);
 
-      let passedCoursesNames = [];
+      /*let passedCoursesNames = [];
       for (let student of lukArray) {
         for (let course of student.passedCourses) {
           passedCoursesNames.push(course.name);
@@ -95,7 +130,7 @@ class LuKStudentTable extends React.Component {
         })
         console.log('lukArray2:',lukArray);
       }
-      catch(error){}
+      catch(error){}*/
 
       return (
         <div className="lukTable">
@@ -112,15 +147,11 @@ class LuKStudentTable extends React.Component {
              minRows={lukArray.length}
              SubComponent={(row) => {
                return (
-                 <div>
+                 <div className="subClass">
                      <ul>
-                       <li>
-                         Opiskelijanumero: {row.row.id}
-                        </li>
-                        <li>
-                         Sähköposti: {row.row.email}
-                        </li>
-                      </ul>
+                       <li> Opiskelijanumero: {row.row.id} </li>
+                       <li> Sähköposti: {row.row.email} </li>
+                     </ul>
                  </div>
                )
              }}
@@ -128,6 +159,13 @@ class LuKStudentTable extends React.Component {
         </div>
       )
    }
+}
+
+function diffToThisDay (date) {
+  var now = moment()
+  var then = moment(date)
+  var difference = now.diff(then, 'days')
+  return difference
 }
 
 export default LuKStudentTable;
