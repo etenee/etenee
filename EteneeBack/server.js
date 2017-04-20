@@ -66,6 +66,12 @@ if (cluster.isMaster) {
     });
   });
 
+  app.get('/stud', function(req, res) {
+    db.serialize(function() {
+      
+    });
+  });
+
   app.get('/studentsdb/', function(req, res) {
   	//res.json(all);
     db.all('SELECT * FROM students', function(err, row) {

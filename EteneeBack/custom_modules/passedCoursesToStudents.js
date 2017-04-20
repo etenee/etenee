@@ -11,7 +11,12 @@ const passedCourses = function(list, call) {
     }
     db.each('SELECT * FROM passedCourses WHERE studentId = '+studentsList.students[key].studentId,
       function(err, row) {
-        console.log(studentsList.students[key].studentId);
+        console.log(row.courseId, row.date);
+        let id = row.courseId;
+        let date = row.date;
+        studentsList.students[key][id] = date;
+        //console.log(studentsList.students[key].studentId);
+        //studentsList.students[key].passedCourses.push(row);
         studentsList.students[key].passedCourses.push(row);
       },
       function() {

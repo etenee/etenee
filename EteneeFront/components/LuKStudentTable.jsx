@@ -51,17 +51,24 @@ class LuKStudentTable extends React.Component {
         }]
       }]
 
-      const lukArray = _.filter(this.props.students.students, {"curriculum": "Luk14"});
+      let lukArray = _.filter(this.props.students.students, {"curriculum": "Luk14"});
       const passedCourses = _.map(this.props.students.students, "passedCourses");
       console.log('passedCourses:', passedCourses);
       console.log('lukArray1:', lukArray);
+      try {
+        lukArray.forEach(function(student) {
+          console.log(student.passedCourses);
+        });
+      } catch(err) {
+
+      }
 
 
       const curriculum = this.props.curriculum;
       var i = 0;
       var j = 0;
 
-      console.log('ASDFASADFSAD', lukArray)
+      //console.log('ASDFASADFSAD', lukArray)
 
       try {
         _.forEach(curriculum.courses, function(course) {
@@ -71,10 +78,10 @@ class LuKStudentTable extends React.Component {
               <ReactTooltip />
            </span>
           )
-          course.id = course.courseId;
-          console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code));
-          console.log('bbbbbbbb',passedCourses.find(x => x.code === curriculum.courses.code).code); 
-          course.accessor = 'passedCourses[0].date';
+          //course.id = course.courseId;
+          //console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code));
+          //console.log('bbbbbbbb',passedCourses.find(x => x.code === curriculum.courses.code).code); 
+          course.accessor = course.code;
           // for (i = 0; i < lukArray.length; i++) {
           //   if (course.code === lukArray[i].passedCourses[0].code) {
           //       course.accessor = 'passedCourses[0].date'
