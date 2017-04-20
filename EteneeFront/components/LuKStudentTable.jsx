@@ -58,10 +58,6 @@ class LuKStudentTable extends React.Component {
 
 
       const curriculum = this.props.curriculum;
-      var i = 0;
-      var j = 0;
-
-      //console.log('ASDFASADFSAD', lukArray)
 
       try {
         _.forEach(curriculum.courses, function(course) {
@@ -71,19 +67,10 @@ class LuKStudentTable extends React.Component {
               <ReactTooltip />
            </span>
           )
-          //course.id = course.courseId;
-          //console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code));
-          //console.log('bbbbbbbb',passedCourses.find(x => x.code === curriculum.courses.code).code); 
           course.accessor = course.code;
-          // for (i = 0; i < lukArray.length; i++) {
-          //   if (course.code === lukArray[i].passedCourses[0].code) {
-          //       course.accessor = 'passedCourses[0].date'
-          //   }
-          // }
-          course.minWidth = 105;
+          course.minWidth = 45;
           course.headerClassName = 'courseH';
-          lukStudentColumns[0].columns.push(course);
-          /*course.render = row => (
+          course.render = (row) => (
             <div
               style={{
                 width: '100%',
@@ -93,47 +80,19 @@ class LuKStudentTable extends React.Component {
             <div
               style={{
                 height: '100%',
-                backgroundColor: diffToThisDay(row.value) > 31 ? '#CCFFCC'
+                backgroundColor: diffToThisDay(row.value) >= 30 ? '#CCFFCC'
                 : diffToThisDay(row.value) > 0 && diffToThisDay(row.value) < 30 ? '#00FF00'
                 : 'null'
               }}
             />
             </div>
-        )*/
+        )
+        lukStudentColumns[0].columns.push(course);
         })
         console.log('got columns');
         console.log(lukStudentColumns);
       }
       catch (error) {}
-
-      // const test = _.zipWith(lukArray, passedCourses, (lukArray, passedCourses)=> ({ lukArray, passedCourses }));
-      // console.log('test:',test);
-
-      /*let passedCoursesNames = [];
-      for (let student of lukArray) {
-        for (let course of student.passedCourses) {
-          passedCoursesNames.push(course.name);
-        }
-      }
-
-      let passedCoursesDates = [];
-      for (let student of lukArray) {
-        for (let course of student.passedCourses) {
-          passedCoursesDates.push(course.date);
-        }
-      }
-
-      try {
-        _.forEach(passedCourses[0], function(course) {
-          course.header = course.name;
-          course.accessor = course.name;
-          course.id = course.code;
-          console.log(course);
-          lukArray[0].curriculum.ops.push(course);
-        })
-        console.log('lukArray2:',lukArray);
-      }
-      catch(error){}*/
 
       return (
         <div className="lukTable">
@@ -166,7 +125,7 @@ class LuKStudentTable extends React.Component {
 
 function diffToThisDay (date) {
   var now = moment()
-  var then = moment(date)
+  var then = moment(date, 'YYYY-MM-DD').subtract(1, 'day')
   var difference = now.diff(then, 'days')
   return difference
 }
