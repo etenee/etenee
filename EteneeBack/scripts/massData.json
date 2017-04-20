@@ -1,0 +1,8801 @@
+[{
+	"firstName": "Rosie",
+	"lastName": "Vuoma",
+	"id": 35701,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Marilin",
+	"lastName": "Roininen",
+	"id": 10707,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 15,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Abena",
+	"lastName": "Niku",
+	"id": 29225,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Sameh",
+	"lastName": "Ahrikkala",
+	"id": 20129,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 15,
+	"passedCourses": [{
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}],
+	"totalCredits": 21
+}, {
+	"firstName": "Mahdi",
+	"lastName": "Soram�ki",
+	"id": 27748,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Denny",
+	"lastName": "Peussa",
+	"id": 29852,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Wasim",
+	"lastName": "Laakkonen",
+	"id": 25962,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"totalCredits": 40
+}, {
+	"firstName": "Marja-Riitta",
+	"lastName": "Maisala",
+	"id": 32999,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"courses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Tempo",
+	"lastName": "Kononov",
+	"id": 30851,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Enzio",
+	"lastName": "�kerberg",
+	"id": 29618,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}],
+	"totalCredits": 23
+}, {
+	"firstName": "Kiana",
+	"lastName": "Nurmiranta",
+	"id": 26537,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 10,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}],
+	"totalCredits": 21
+}, {
+	"firstName": "Eva-Riitta",
+	"lastName": "Lahti-Mononen",
+	"id": 18893,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 10,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Sahin",
+	"lastName": "Gullsten",
+	"id": 30797,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Guadalupe",
+	"lastName": "S�ynevirta",
+	"id": 23111,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Hanna-Tuulia",
+	"lastName": "Lehtosalo",
+	"id": 32210,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Toivo",
+	"lastName": "Tsurkka",
+	"id": 20365,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Eloisa",
+	"lastName": "Battilana",
+	"id": 38248,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Adriano",
+	"lastName": "Kiira",
+	"id": 25790,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 4,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Margrethe",
+	"lastName": "Ratilainen",
+	"id": 30878,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 15,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Minna-Kristiina",
+	"lastName": "Tamper",
+	"id": 29386,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Marten",
+	"lastName": "Andler",
+	"id": 37077,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 40
+}, {
+	"firstName": "Anne-Maritta",
+	"lastName": "Grimm",
+	"id": 31696,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Gentiana",
+	"lastName": "Lineri",
+	"id": 10081,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}],
+	"courses": [{
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}, {
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Jalo",
+	"lastName": "Jylh�nlehto",
+	"id": 20289,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Mikaeli",
+	"lastName": "Shah",
+	"id": 19476,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Josefin",
+	"lastName": "Suvenaho",
+	"id": 22365,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 6,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Kurt",
+	"lastName": "Honkakoski",
+	"id": 23836,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Bernard",
+	"lastName": "Arkivuo",
+	"id": 23812,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"courses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Ati",
+	"lastName": "Ylispangar",
+	"id": 29586,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Lucas",
+	"lastName": "Novikova",
+	"id": 18863,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Robinson",
+	"lastName": "Ojala",
+	"id": 22757,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}],
+	"totalCredits": 50
+}, {
+	"firstName": "Sikstus",
+	"lastName": "Pet�j�",
+	"id": 39895,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Leena",
+	"lastName": "Vasu",
+	"id": 18977,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Beda",
+	"lastName": "Joutj�rvi",
+	"id": 27210,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Sera",
+	"lastName": "M�kisalo",
+	"id": 39187,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Nessa",
+	"lastName": "Vehmaan-Kreula",
+	"id": 23157,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Teddy",
+	"lastName": "Tuomenharju",
+	"id": 19750,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Niiles",
+	"lastName": "Vuonnala",
+	"id": 21739,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Aylin",
+	"lastName": "M�ki-Paavola",
+	"id": 28219,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}],
+	"totalCredits": 13
+}, {
+	"firstName": "Juha-Pertti",
+	"lastName": "Gr�nman",
+	"id": 39758,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Aleks",
+	"lastName": "Maikku",
+	"id": 20533,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Minttu-Maaria",
+	"lastName": "Forsten",
+	"id": 39840,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Annilotta",
+	"lastName": "Hallb�ck",
+	"id": 32061,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Elida",
+	"lastName": "Ilmakangas",
+	"id": 27170,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 6,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Judit",
+	"lastName": "Savunen",
+	"id": 39043,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 6,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Tessa",
+	"lastName": "Boman",
+	"id": 10292,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Alix",
+	"lastName": "Toivo",
+	"id": 33090,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"totalCredits": 13
+}, {
+	"firstName": "Meri-Helmi",
+	"lastName": "R�g�rd",
+	"id": 20609,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Gudmund",
+	"lastName": "Br�nnbacka",
+	"id": 20580,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Jusuf",
+	"lastName": "Uramo",
+	"id": 28486,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Isabella",
+	"lastName": "Hevosmaa",
+	"id": 13670,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Ida-Liina",
+	"lastName": "Nakolinna",
+	"id": 17875,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Adalina",
+	"lastName": "Kukkasm�ki",
+	"id": 33664,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Abdiasis",
+	"lastName": "Velling",
+	"id": 21249,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Darya",
+	"lastName": "Kajakoski",
+	"id": 19955,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"totalCredits": 42
+}, {
+	"firstName": "Anastasija",
+	"lastName": "Tuomela",
+	"id": 33004,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Hanna-Stiina",
+	"lastName": "B�ng",
+	"id": 36035,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Yoonis",
+	"lastName": "Linteri",
+	"id": 19315,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Arja-Riitta",
+	"lastName": "Kuusenoja",
+	"id": 30981,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}],
+	"courses": [{
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}],
+	"totalCredits": 21
+}, {
+	"firstName": "Henrikinpoika",
+	"lastName": "Carlsson",
+	"id": 37695,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Rebekka",
+	"lastName": "Saarti",
+	"id": 39213,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"courses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Thora",
+	"lastName": "Heija",
+	"id": 10000,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}],
+	"courses": [{
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Aiju",
+	"lastName": "Jaara",
+	"id": 15587,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 10,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Reh",
+	"lastName": "Ala-Huikku",
+	"id": 10276,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"courses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}],
+	"totalCredits": 43
+}, {
+	"firstName": "Eivor",
+	"lastName": "Pyst�",
+	"id": 14275,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Anna-Laura",
+	"lastName": "�im�nen",
+	"id": 17861,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Arian",
+	"lastName": "Romar",
+	"id": 36293,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}],
+	"courses": [{
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}],
+	"totalCredits": 23
+}, {
+	"firstName": "Markuntyt�r",
+	"lastName": "Merentie",
+	"id": 27451,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Aniela",
+	"lastName": "Permanto",
+	"id": 22818,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}],
+	"courses": [{
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Kukka",
+	"lastName": "Koivikko",
+	"id": 25982,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}],
+	"totalCredits": 14
+}, {
+	"firstName": "Hannu-Tapio",
+	"lastName": "Tammikivi",
+	"id": 25571,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Lilla",
+	"lastName": "Pylv�l�inen",
+	"id": 12373,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Moonika",
+	"lastName": "Upla",
+	"id": 30561,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Mikaeela",
+	"lastName": "Sallisalmi",
+	"id": 37361,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}],
+	"totalCredits": 19
+}, {
+	"firstName": "Feodosia",
+	"lastName": "Tainio",
+	"id": 18649,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "M�rtha",
+	"lastName": "Keskinen",
+	"id": 11610,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Ann-Charlott",
+	"lastName": "Apponen",
+	"id": 35084,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Wai",
+	"lastName": "Kuru",
+	"id": 27262,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"totalCredits": 23
+}, {
+	"firstName": "Roopert",
+	"lastName": "Patrikka",
+	"id": 27957,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Markonpoika",
+	"lastName": "Was�n",
+	"id": 32568,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Simona",
+	"lastName": "Mauno",
+	"id": 37581,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Jetro",
+	"lastName": "Santala",
+	"id": 17101,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Abd",
+	"lastName": "Parmanen",
+	"id": 17381,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Marine",
+	"lastName": "Sirmola",
+	"id": 35579,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Sarlotta",
+	"lastName": "Aatola",
+	"id": 32811,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Millie",
+	"lastName": "Silver",
+	"id": 11346,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Bosson",
+	"lastName": "Pihlajaharju",
+	"id": 14777,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Jan-Henry",
+	"lastName": "Nuottim�ki",
+	"id": 16696,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 2,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Raija-Liisa",
+	"lastName": "Ojanne",
+	"id": 26520,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Monja",
+	"lastName": "Riihiranta",
+	"id": 39561,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Jannentyt�r",
+	"lastName": "Hannunen",
+	"id": 16732,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}],
+	"totalCredits": 14
+}, {
+	"firstName": "Izabella",
+	"lastName": "Pursio",
+	"id": 10244,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Matthew",
+	"lastName": "Kelonen",
+	"id": 33413,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"totalCredits": 50
+}, {
+	"firstName": "Mariika",
+	"lastName": "Rantio",
+	"id": 24081,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 10,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}],
+	"totalCredits": 11
+}, {
+	"firstName": "Ilija",
+	"lastName": "Bj�rkgren",
+	"id": 11050,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}],
+	"totalCredits": 19
+}, {
+	"firstName": "Elo",
+	"lastName": "F�rbom",
+	"id": 32265,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Seliina",
+	"lastName": "Thom�",
+	"id": 17552,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Kim",
+	"lastName": "Hailla",
+	"id": 12141,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Annabelle",
+	"lastName": "Krogius",
+	"id": 10581,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Mirabelle",
+	"lastName": "Helaster�",
+	"id": 24747,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Juuni",
+	"lastName": "Saukkokoski",
+	"id": 35726,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"totalCredits": 43
+}, {
+	"firstName": "Alisi",
+	"lastName": "Takkula",
+	"id": 12830,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Thelma",
+	"lastName": "Engelholm",
+	"id": 11120,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Antreas",
+	"lastName": "Viheri�koski",
+	"id": 10855,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Janniina",
+	"lastName": "Nakkila",
+	"id": 36221,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Seri",
+	"lastName": "Niemil�",
+	"id": 17922,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Bashar",
+	"lastName": "Huotari",
+	"id": 27416,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 10,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Merissa",
+	"lastName": "Aden",
+	"id": 19410,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}],
+	"totalCredits": 12
+}, {
+	"firstName": "Erika",
+	"lastName": "Huttu",
+	"id": 28363,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 6,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Lija",
+	"lastName": "Hermas",
+	"id": 24501,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Nanne",
+	"lastName": "Pet�j�niemi",
+	"id": 21958,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}],
+	"totalCredits": 12
+}, {
+	"firstName": "Nils-Henrik",
+	"lastName": "Uutela",
+	"id": 30608,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}],
+	"totalCredits": 23
+}, {
+	"firstName": "Simontyt�r",
+	"lastName": "Orimus",
+	"id": 11911,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Warda",
+	"lastName": "Rolin",
+	"id": 10573,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Kai-Mikael",
+	"lastName": "Ryyti",
+	"id": 20617,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Engla",
+	"lastName": "Vuontisvaara",
+	"id": 17073,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Platon",
+	"lastName": "Sorja",
+	"id": 17461,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Jamie",
+	"lastName": "Kanala",
+	"id": 28798,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 40
+}, {
+	"firstName": "Bj�rnsdotter",
+	"lastName": "Rikassaari",
+	"id": 28991,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Noora",
+	"lastName": "Koskensalmi",
+	"id": 31315,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Ville-Markus",
+	"lastName": "Riikkula",
+	"id": 13052,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}],
+	"courses": [{
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Riikkamari",
+	"lastName": "Ryypp�",
+	"id": 25184,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Osma",
+	"lastName": "Kirveskari",
+	"id": 28832,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Michela",
+	"lastName": "Kulonen",
+	"id": 30344,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Matja",
+	"lastName": "Karlqvist",
+	"id": 33822,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Tertta",
+	"lastName": "Viherkanto",
+	"id": 31938,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Danuta",
+	"lastName": "Jalvanti",
+	"id": 10874,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 15,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Ray",
+	"lastName": "Renholm",
+	"id": 19146,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Siiri-Maria",
+	"lastName": "Pinoniemi",
+	"id": 10347,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Salman",
+	"lastName": "Yli-Sikkil�",
+	"id": 17030,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Wiljo",
+	"lastName": "Salmelainen",
+	"id": 34426,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Kathrin",
+	"lastName": "Sistonen",
+	"id": 13757,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"courses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Bich",
+	"lastName": "Lahdenmaa",
+	"id": 22547,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Katrin",
+	"lastName": "Rahkala",
+	"id": 35006,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}],
+	"totalCredits": 12
+}, {
+	"firstName": "Omena",
+	"lastName": "P�rn",
+	"id": 13343,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Francisco",
+	"lastName": "Walls",
+	"id": 20489,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Teno",
+	"lastName": "Ansaranta",
+	"id": 26649,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}],
+	"courses": [{
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}],
+	"totalCredits": 8
+}, {
+	"firstName": "Raija-Maija",
+	"lastName": "Kraufvelin",
+	"id": 39655,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Annikka",
+	"lastName": "Mustam�ki",
+	"id": 35235,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Sipriina",
+	"lastName": "Panula",
+	"id": 37059,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Hemminki",
+	"lastName": "Tammia",
+	"id": 12934,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Armida",
+	"lastName": "Hintta",
+	"id": 17541,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 6,
+	"passedCourses": [{
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}],
+	"totalCredits": 26
+}, {
+	"firstName": "Kosmo",
+	"lastName": "Vesiaho",
+	"id": 10088,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Alve",
+	"lastName": "Lehikoinen",
+	"id": 21756,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}],
+	"courses": [{
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}],
+	"totalCredits": 21
+}, {
+	"firstName": "Alla",
+	"lastName": "Piirinen",
+	"id": 18000,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}],
+	"totalCredits": 21
+}, {
+	"firstName": "Berndt",
+	"lastName": "Puupponen",
+	"id": 35758,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "(uusi)",
+		"name": "Englannin kieli"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Ramazan",
+	"lastName": "Lundsten",
+	"id": 25126,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 10,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Reina",
+	"lastName": "Pelto-Huikko",
+	"id": 30793,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 15,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Aino-Elina",
+	"lastName": "Hirsimaa",
+	"id": 19598,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Gun-Lis",
+	"lastName": "Hautamaa",
+	"id": 35616,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Fuad",
+	"lastName": "Holmqvist",
+	"id": 31969,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Ringa",
+	"lastName": "M�kimarttunen",
+	"id": 18319,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Hoda",
+	"lastName": "Brunnila",
+	"id": 36763,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Jolanda",
+	"lastName": "L��vi",
+	"id": 33153,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Hellevi",
+	"lastName": "Korpihete",
+	"id": 16616,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Annabel",
+	"lastName": "Pajuranta",
+	"id": 24671,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 4,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Veerti",
+	"lastName": "Brooks",
+	"id": 26844,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811120P",
+		"name": "Diskreetit rakenteet"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Eeri",
+	"lastName": "Klaus",
+	"id": 12913,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}, {
+		"credits": 10,
+		"courseId": "811366A",
+		"name": "Projektitoiminta"
+	}],
+	"courses": [{
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}],
+	"totalCredits": 21
+}, {
+	"firstName": "Pi",
+	"lastName": "Ihonen",
+	"id": 15470,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"courses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"totalCredits": 13
+}, {
+	"firstName": "Ari-Juhani",
+	"lastName": "Frost",
+	"id": 18820,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}, {
+		"credits": 6,
+		"courseId": "812305A",
+		"name": "Organisaatioiden informaatiojärjestelmät"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Gerli",
+	"lastName": "Askonen",
+	"id": 15062,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Hanna-Katri",
+	"lastName": "Wuorenjuuri",
+	"id": 26635,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Sibylla",
+	"lastName": "Vuorikari",
+	"id": 13234,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}],
+	"totalCredits": 11
+}, {
+	"firstName": "Harrison",
+	"lastName": "Rahtu",
+	"id": 10043,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Ragnvald",
+	"lastName": "Ulaska",
+	"id": 14610,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Simo-Petteri",
+	"lastName": "Alm",
+	"id": 17537,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 17,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Allan",
+	"lastName": "Bostr�m",
+	"id": 37986,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Risto-Matti",
+	"lastName": "Siponmaa",
+	"id": 17006,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 0,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Canan",
+	"lastName": "Peronmaa",
+	"id": 18954,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"totalCredits": 43
+}, {
+	"firstName": "Casimir",
+	"lastName": "Sahinoja",
+	"id": 12758,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"courses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}],
+	"totalCredits": 50
+}, {
+	"firstName": "Jevgeni",
+	"lastName": "Ter�sniska",
+	"id": 12994,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Mats-Johan",
+	"lastName": "Alinen",
+	"id": 18271,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Kastanja",
+	"lastName": "Ristsepp�",
+	"id": 32511,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 11,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Maarja",
+	"lastName": "Pantsari",
+	"id": 15013,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 3,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 1,
+		"courseId": "901048Y",
+		"name": "Toinen kotimainen kieli, ruotsi, kirjallinen kielitaito"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Villiam",
+	"lastName": "Niinimaa",
+	"id": 21961,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Miihkali",
+	"lastName": "Himanka",
+	"id": 24740,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}],
+	"totalCredits": 22
+}, {
+	"firstName": "Ioulia",
+	"lastName": "Kuorelahti",
+	"id": 15731,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Into",
+	"lastName": "Skippari",
+	"id": 39233,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"courses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Juho-Tuomas",
+	"lastName": "Palmulaakso",
+	"id": 16935,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 15,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "813626S",
+		"name": "Emerging Technologies and Issues"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Pelagia",
+	"lastName": "Siltola",
+	"id": 27977,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Miroslava",
+	"lastName": "Vad�n",
+	"id": 12543,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}],
+	"courses": [{
+		"credits": 7,
+		"courseId": "811383A",
+		"name": "LuK-tutkielma"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811391A",
+		"name": "Vaatimusmäärittely"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}],
+	"totalCredits": 16
+}, {
+	"firstName": "Maile",
+	"lastName": "Varanka",
+	"id": 30674,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 5,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}, {
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815663S",
+		"name": "Software Engineering Research"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Ensio",
+	"lastName": "Ponkiniemi",
+	"id": 10281,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Gradun seminaari"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Lassentyt�r",
+	"lastName": "Stoor",
+	"id": 17161,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Master's Thesis"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}],
+	"totalCredits": 43
+}, {
+	"firstName": "Riham",
+	"lastName": "Thureson",
+	"id": 23630,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 18,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "812331A",
+		"name": "Interaction Design"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Jormanpoika",
+	"lastName": "Virmasalo",
+	"id": 12624,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 13,
+	"passedCourses": [{
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}, {
+		"credits": 5,
+		"courseId": "815345A",
+		"name": "Ohjelmistoarkkitehtuurit"
+	}],
+	"courses": [{
+		"credits": 2,
+		"courseId": "810020Y",
+		"name": "Orientoivat opinnot"
+	}, {
+		"credits": 5,
+		"courseId": "811177P",
+		"name": "Ihminen tietotekniikan käyttäjänä ja kehittäjänä"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Huvi",
+	"lastName": "L�nsimies",
+	"id": 16172,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 30,
+		"courseId": "813613S",
+		"name": "Gradu"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Tutkimusmenetelmät"
+	}],
+	"courses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "813625S",
+		"name": "Information Systems Theory"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}],
+	"totalCredits": 45
+}, {
+	"firstName": "Joona-Matias",
+	"lastName": "P�lkki",
+	"id": 38579,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 8,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 12
+}, {
+	"firstName": "Santtu-Pekka",
+	"lastName": "Huikkala",
+	"id": 35769,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Kypsyysnäyte"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Anne-Marjut",
+	"lastName": "Smolander",
+	"id": 39754,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812332A",
+		"name": "Tietojärjestelmien suunnittelu"
+	}, {
+		"credits": 0,
+		"courseId": "813307A",
+		"name": "Kypsyysnäyte"
+	}, {
+		"credits": 5,
+		"courseId": "811379A",
+		"name": "Käyttöliittymien perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}],
+	"courses": [{
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 5,
+		"courseId": "812339A",
+		"name": "Olio-ohjelmoinnin jatkokurssi"
+	}],
+	"totalCredits": 15
+}, {
+	"firstName": "Hildegund",
+	"lastName": "Lahnasalo",
+	"id": 31705,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 4,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}, {
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Heljo",
+	"lastName": "Kajavalta",
+	"id": 33928,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 9,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "521150A",
+		"name": "Internet ja tietoverkot"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 1,
+		"courseId": "030005P",
+		"name": "Tiedonhankintakurssi"
+	}, {
+		"credits": 5,
+		"courseId": "811394A",
+		"name": "Tietokantajärjestelmät"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Joa",
+	"lastName": "Yliharju",
+	"id": 10469,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 19,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815305A",
+		"name": "Real Time Distributed Software Development"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815303A",
+		"name": "Embedded Software Development Environments"
+	}],
+	"totalCredits": 25
+}, {
+	"firstName": "Indira",
+	"lastName": "Lautj�rvi",
+	"id": 27889,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "817604S",
+		"name": "ICT and Organisational Change"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 0,
+		"courseId": "813607S",
+		"name": "Maturity Test"
+	}, {
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}, {
+		"credits": 5,
+		"courseId": "813621S",
+		"name": "Research Methods"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}],
+	"totalCredits": 12
+}, {
+	"firstName": "Erko",
+	"lastName": "Katavisto",
+	"id": 28228,
+	"curriculum": {
+		"ops": "Fm14"
+	},
+	"instructorId": 5,
+	"otherCredits": 1,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "815662S",
+		"name": "Software Engineering Management, Measurement and Improvement"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "813623S",
+		"name": "Infomration Security Policy Management in Organisations"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "812349A",
+		"name": "IT Infrastructure"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 5,
+		"courseId": "817602S",
+		"name": "Software Development in Global Environments"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Projektiseminaari"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Marja-Elina",
+	"lastName": "Niilo-R�m�",
+	"id": 37569,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 12,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 5,
+		"courseId": "811122P",
+		"name": "Johdatus ohjelmointiin"
+	}, {
+		"credits": 5,
+		"courseId": "811174P",
+		"name": "Ohjelmistoliiketoiminnan perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}],
+	"courses": [{
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 6,
+		"courseId": "810122P",
+		"name": "Tietokonearkkitehtuuri"
+	}, {
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}],
+	"totalCredits": 20
+}, {
+	"firstName": "Gerda",
+	"lastName": "Verkkom�ki",
+	"id": 21730,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 7,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 3,
+		"courseId": "811393A",
+		"name": "Johdatus tutkimustyöhön"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}],
+	"courses": [{
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}],
+	"totalCredits": 18
+}, {
+	"firstName": "Carson",
+	"lastName": "M�nnik",
+	"id": 18794,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 15,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811312A",
+		"name": "Tietorakenteet ja algoritmit"
+	}, {
+		"credits": 1,
+		"courseId": "901049Y",
+		"name": "Toinen kotimainen kieli, ruotsi, suullinen kielitaito"
+	}, {
+		"credits": 6,
+		"courseId": "812341A",
+		"name": "Olio-ohjelmointi"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811346A",
+		"name": "Ohjelmistotekniikka"
+	}, {
+		"credits": 5,
+		"courseId": "812342A",
+		"name": "Oliosuuntautunut analyysi ja suunnittelu"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811375A",
+		"name": "Käyttöliittymäohjelmointi"
+	}],
+	"totalCredits": 17
+}, {
+	"firstName": "Gaston",
+	"lastName": "Yli-Mannila",
+	"id": 10466,
+	"curriculum": {
+		"ops": "Luk14"
+	},
+	"instructorId": 5,
+	"otherCredits": 16,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "811395A",
+		"name": "Tietokantojen perusteet"
+	}, {
+		"credits": 5,
+		"courseId": "811168P",
+		"name": "Tietoturva"
+	}, {
+		"credits": 6,
+		"courseId": "811167P",
+		"name": "Tietojärjestelmien suunnittelun perusteet"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "811344A",
+		"name": "Tilastollisen data-analyysin perusteet tietojenkäsittelytieteilijöille"
+	}, {
+		"credits": 5,
+		"courseId": "810136P",
+		"name": "Johdatus tietojenkäsittelytieteisiin"
+	}, {
+		"credits": 5,
+		"courseId": "813316A",
+		"name": "Business Process Modelling"
+	}, {
+		"credits": 5,
+		"courseId": "AAAAAAA",
+		"name": "Kirjallinen ja suullinen viestintä"
+	}],
+	"totalCredits": 21
+}, {
+	"firstName": "Minna-Sisko",
+	"lastName": "Saareke",
+	"id": 22137,
+	"curriculum": {
+		"ops": "Fm15"
+	},
+	"instructorId": 5,
+	"otherCredits": 14,
+	"passedCourses": [{
+		"credits": 5,
+		"courseId": "812351A",
+		"name": "Enterprise Systems"
+	}, {
+		"credits": 2,
+		"courseId": "813627S",
+		"name": "Master's Thesis Seminar"
+	}, {
+		"credits": 5,
+		"courseId": "815312A",
+		"name": "Software Production and Maintenance"
+	}, {
+		"credits": 3,
+		"courseId": "817609S",
+		"name": "Project Seminar"
+	}],
+	"courses": [{
+		"credits": 5,
+		"courseId": "817603S",
+		"name": "System Design Methods for Information Systems"
+	}, {
+		"credits": 5,
+		"courseId": "815657S",
+		"name": "Open Source Software Development"
+	}, {
+		"credits": 10,
+		"courseId": "817612S",
+		"name": "Research and Development Project"
+	}, {
+		"credits": 5,
+		"courseId": "815311A",
+		"name": "Software Quality and Testing"
+	}],
+	"totalCredits": 15
+}]
