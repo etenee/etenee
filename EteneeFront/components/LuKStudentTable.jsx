@@ -73,13 +73,8 @@ class LuKStudentTable extends React.Component {
           )
           course.id = course.code;
           console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code));
-          if (passedCourses.find(x => x.code === curriculum.courses.code)) {
-            course.accessor = 'passedCourses[0].code'; 
-          }
-          else {
-            course.accessor = 'passedCourses[0].date';
-          }
-          
+          console.log('bbbbbbbb',passedCourses.find(x => x.code === curriculum.courses.code).code); 
+          course.accessor = 'passedCourses[0].date';
           // for (i = 0; i < lukArray.length; i++) {
           //   if (course.code === lukArray[i].passedCourses[0].code) {
           //       course.accessor = 'passedCourses[0].date'
