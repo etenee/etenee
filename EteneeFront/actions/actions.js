@@ -17,7 +17,7 @@ export function getStudents (list) {
 };
 
 export function fetchData() {
-  const url = `${config.url}/students`;
+  const url = `${config.url}/studentsdb`;
   console.log('getting data');
   return fetch(url, {
     method: 'GET',
