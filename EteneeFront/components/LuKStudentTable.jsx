@@ -43,6 +43,11 @@ class LuKStudentTable extends React.Component {
         }]
       }]
 
+      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
+      const passedCourses = _.map(this.props.students.students, "passedCourses");
+      console.log('passedCourses:', passedCourses);
+      console.log('lukArray1:', lukArray);
+
       const curriculum = this.props.curriculum;
       try {
         _.forEach(curriculum.courses, function(course) {
@@ -53,8 +58,14 @@ class LuKStudentTable extends React.Component {
            </span>
           )
           course.id = course.code;
-          course.accessor = 'passedCourses[0].date'; 
-          course.minWidth = 35;
+          if (passedCourses.find(x => x.code == curriculum.courses.code).code) {
+            course.accessor = 'passedCourses[0].code'; 
+          }
+          else {
+            course.accessor = 'passedCourses[0].date';
+          }
+          
+          course.minWidth = 105;
           course.headerClassName = 'courseH';
           lukStudentColumns[0].columns.push(course);
         })
@@ -62,28 +73,10 @@ class LuKStudentTable extends React.Component {
         console.log(lukStudentColumns);
       }
       catch (error) {}
-
-      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
-      const passedCourses = _.map(this.props.students.students, "passedCourses");
-      console.log('passedCourses:', passedCourses);
-      console.log('lukArray1:', lukArray);
+      
 
       // const test = _.zipWith(lukArray, passedCourses, (lukArray, passedCourses)=> ({ lukArray, passedCourses }));
       // console.log('test:',test);
-
-      let passedCoursesNames = [];
-      for (let student of lukArray) {
-        for (let course of student.passedCourses) {
-          passedCoursesNames.push(course.name);
-        }
-      }
-
-      let passedCoursesDates = [];
-      for (let student of lukArray) {
-        for (let course of student.passedCourses) {
-          passedCoursesDates.push(course.date);
-        }
-      }
 
       try {
         _.forEach(passedCourses[0], function(course) {
