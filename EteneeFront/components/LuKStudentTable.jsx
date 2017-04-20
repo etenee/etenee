@@ -51,7 +51,7 @@ class LuKStudentTable extends React.Component {
         }]
       }]
 
-      const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
+      const lukArray = _.filter(this.props.students.students, {"curriculum": "Luk14"});
       const passedCourses = _.map(this.props.students.students, "passedCourses");
       console.log('passedCourses:', passedCourses);
       console.log('lukArray1:', lukArray);
@@ -71,7 +71,7 @@ class LuKStudentTable extends React.Component {
               <ReactTooltip />
            </span>
           )
-          course.id = course.code;
+          course.id = course.courseId;
           console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code));
           if (passedCourses.find(x => x.code === curriculum.courses.code)) {
             course.accessor = 'passedCourses[0].code'; 
@@ -157,7 +157,7 @@ class LuKStudentTable extends React.Component {
                return (
                  <div className="subClass">
                      <ul>
-                       <li> Opiskelijanumero: {row.row.id} </li>
+                       <li> Opiskelijanumero: {row.row.studentId} </li>
                        <li> Sähköposti: {row.row.email} </li>
                      </ul>
                  </div>
