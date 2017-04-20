@@ -55,13 +55,6 @@ class LuKStudentTable extends React.Component {
       const passedCourses = _.map(this.props.students.students, "passedCourses");
       console.log('passedCourses:', passedCourses);
       console.log('lukArray1:', lukArray);
-      try {
-        lukArray.forEach(function(student) {
-          console.log(student.passedCourses);
-        });
-      } catch(err) {
-
-      }
 
 
       const curriculum = this.props.curriculum;
