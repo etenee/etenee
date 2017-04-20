@@ -72,9 +72,8 @@ class LuKStudentTable extends React.Component {
            </span>
           )
           course.id = course.code;
-          // jostain syystä tulee undefined alemmasta
-          console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code).code);
-          if (passedCourses.find(x => x.code === curriculum.courses.code).code) {
+          console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code));
+          if (passedCourses.find(x => x.code === curriculum.courses.code)) {
             course.accessor = 'passedCourses[0].code'; 
           }
           else {
