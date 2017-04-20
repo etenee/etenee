@@ -72,18 +72,20 @@ class LuKStudentTable extends React.Component {
            </span>
           )
           course.id = course.code;
-          if (passedCourses.find(x => x.code == curriculum.courses.code).code) {
+          // jostain syystä tulee undefined alemmasta
+          console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code).code);
+          if (passedCourses.find(x => x.code === curriculum.courses.code).code) {
             course.accessor = 'passedCourses[0].code'; 
           }
           else {
             course.accessor = 'passedCourses[0].date';
           }
           
-          for (i = 0; i < lukArray.length; i++) {
-            if (course.code === lukArray[i].passedCourses[0].code) {
-                course.accessor = 'passedCourses[0].date'
-            }
-          }
+          // for (i = 0; i < lukArray.length; i++) {
+          //   if (course.code === lukArray[i].passedCourses[0].code) {
+          //       course.accessor = 'passedCourses[0].date'
+          //   }
+          // }
           course.minWidth = 105;
           course.headerClassName = 'courseH';
           lukStudentColumns[0].columns.push(course);
@@ -109,12 +111,6 @@ class LuKStudentTable extends React.Component {
         console.log(lukStudentColumns);
       }
       catch (error) {}
-      
-
-      // const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
-      // const passedCourses = _.map(this.props.students.students, "passedCourses");
-      // console.log('passedCourses:', passedCourses);
-      // console.log('lukArray1:', lukArray);
 
       // const test = _.zipWith(lukArray, passedCourses, (lukArray, passedCourses)=> ({ lukArray, passedCourses }));
       // console.log('test:',test);
