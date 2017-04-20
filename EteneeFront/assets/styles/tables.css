@@ -15,7 +15,7 @@ div.rt-thead.-header {
     color: white;
 }
 
-.rt-th.courseH {
+.rt-th.courseH, .rt-th.omaOpet {
     font-size: 1em;
     text-overflow: clip;
 
@@ -37,3 +37,7 @@ div.-sort-desc::after {
 content: "\25BC";
 float: right;
 }*/
+
+.subClass {
+    text-align: left;
+}

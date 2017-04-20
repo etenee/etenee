@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 import ReactTooltip from 'react-tooltip'
+import moment from 'moment'
 
 class LuKStudentTable extends React.Component {
   constructor(props) {
@@ -35,44 +36,90 @@ class LuKStudentTable extends React.Component {
           header: 'Muut',
           accessor: 'otherCredits',
           minWidth: 55
+        },
+        {
+          headerClassName: 'omaOpet',
+          header: () => (
+            <span data-tip="Omaopettaja">
+              Omaopettaja
+              <ReactTooltip />
+            </span>
+          ),
+          accessor: 'instructorId',
+          minWidth: 55
+          // show: false
         }]
       }]
-
-      const curriculum = this.props.curriculum;
-      try {
-        _.forEach(curriculum.courses, function(course) {
-          course.header = (kurs) => (
-            <span data-tip={course.name}>
-              {course.name}
-              <ReactTooltip />
-           </span>
-          )
-          course.id = course.code;
-          course.accessor = course.name;
-          course.minWidth = 35;
-          course.headerClassName = 'courseH';
-          lukStudentColumns[0].columns.push(course);
-        })
-        console.log('got columns');
-        console.log(lukStudentColumns);
-      }
-      catch (error) {}
 
       const lukArray = _.filter(this.props.students.students, {"curriculum": {"ops": "LuK14"}});
       const passedCourses = _.map(this.props.students.students, "passedCourses");
       console.log('passedCourses:', passedCourses);
       console.log('lukArray1:', lukArray);
 
+
+      const curriculum = this.props.curriculum;
+      var i = 0;
+      var j = 0;
+
+      console.log('ASDFASADFSAD', lukArray)
+
+      try {
+        _.forEach(curriculum.courses, function(course) {
+          course.header = () => (
+            <span data-tip={course.name}>
+              {course.name}
+              <ReactTooltip />
+           </span>
+          )
+          course.id = course.code;
+          console.log('aaaaaaaa',passedCourses.find(x => x.code === curriculum.courses.code));
+          if (passedCourses.find(x => x.code === curriculum.courses.code)) {
+            course.accessor = 'passedCourses[0].code'; 
+          }
+          else {
+            course.accessor = 'passedCourses[0].date';
+          }
+          
+          // for (i = 0; i < lukArray.length; i++) {
+          //   if (course.code === lukArray[i].passedCourses[0].code) {
+          //       course.accessor = 'passedCourses[0].date'
+          //   }
+          // }
+          course.minWidth = 105;
+          course.headerClassName = 'courseH';
+          lukStudentColumns[0].columns.push(course);
+          /*course.render = row => (
+            <div
+              style={{
+                width: '100%',
+                height: '100%'
+              }}
+            >
+            <div
+              style={{
+                height: '100%',
+                backgroundColor: diffToThisDay(row.value) > 31 ? '#CCFFCC'
+                : diffToThisDay(row.value) > 0 && diffToThisDay(row.value) < 30 ? '#00FF00'
+                : 'null'
+              }}
+            />
+            </div>
+        )*/
+        })
+        console.log('got columns');
+        console.log(lukStudentColumns);
+      }
+      catch (error) {}
+
       // const test = _.zipWith(lukArray, passedCourses, (lukArray, passedCourses)=> ({ lukArray, passedCourses }));
       // console.log('test:',test);
 
-      let passedCoursesNames = [];
+      /*let passedCoursesNames = [];
       for (let student of lukArray) {
         for (let course of student.passedCourses) {
           passedCoursesNames.push(course.name);
         }
       }
-      console.log('passed course names:', passedCoursesNames);
 
       let passedCoursesDates = [];
       for (let student of lukArray) {
@@ -80,8 +127,6 @@ class LuKStudentTable extends React.Component {
           passedCoursesDates.push(course.date);
         }
       }
-      console.log('passed course dates:', passedCoursesDates);
-
 
       try {
         _.forEach(passedCourses[0], function(course) {
@@ -89,11 +134,11 @@ class LuKStudentTable extends React.Component {
           course.accessor = course.name;
           course.id = course.code;
           console.log(course);
-          lukArray.data.push(course);
+          lukArray[0].curriculum.ops.push(course);
         })
         console.log('lukArray2:',lukArray);
       }
-      catch(error){}
+      catch(error){}*/
 
       return (
         <div className="lukTable">
@@ -110,8 +155,11 @@ class LuKStudentTable extends React.Component {
              minRows={lukArray.length}
              SubComponent={(row) => {
                return (
-                 <div>
-                     Juu
+                 <div className="subClass">
+                     <ul>
+                       <li> Opiskelijanumero: {row.row.id} </li>
+                       <li> Sähköposti: {row.row.email} </li>
+                     </ul>
                  </div>
                )
              }}
@@ -119,6 +167,13 @@ class LuKStudentTable extends React.Component {
         </div>
       )
    }
+}
+
+function diffToThisDay (date) {
+  var now = moment()
+  var then = moment(date)
+  var difference = now.diff(then, 'days')
+  return difference
 }
 
 export default LuKStudentTable;
