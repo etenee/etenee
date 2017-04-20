@@ -10,7 +10,7 @@ combinedList.students = all.students.concat(mass.students);
 db.serialize(function() {
   db.run('DROP TABLE IF EXISTS passedCourses');
   //db.run('CREATE TABLE if not exists passedCourses (courseId varchar(20) PRIMARY KEY NOT NULL, FOREIGN KEY(studentId) REFERENCES students(studentId))');
-  db.run('CREATE TABLE if not exists passedCourses (courseId varchar(20), date TEXT, studentId integer);');
+  db.run('CREATE TABLE if not exists passedCourses (courseId varchar(20), date TEXT, studentId integer, name TEXT);');
 });
 
 /*for (let student of all.students) {
@@ -29,7 +29,7 @@ for (let student of combinedList.students) {
     console.log('course code: ' + course.courseId);
     console.log('course date: ' + superDate);
     console.log('course student id: ' + student.id);
-    db.run('INSERT INTO passedCourses VALUES("'+course.courseId+'","'+superDate+'",'+student.id+');');
+    db.run('INSERT INTO passedCourses VALUES("'+course.courseId+'","'+superDate+'",'+student.id+', "'+course.name+'");');
     //db.run('INSERT OR REPLACE INTO passedCourses VALUES ('+course.code+');');
   }
 };
