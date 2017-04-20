@@ -6,15 +6,23 @@ var curriculumLuk14 = require('.././data/curriculumLuk14.json');
 var curriculumLuk15 = require('.././data/curriculumLuk15.json');
 
 let curriculumArray = [
-  {name: "curriculumFm14",
+  {name: "Fm14",
     data: curriculumFm14},
-  {name: "curriculumFm15",
+  {name: "Fm15",
     data: curriculumFm15},
-  {name: "curriculumLuk14",
+  {name: "Luk14",
     data: curriculumLuk14},
-  {name: "curriculumLuk15",
+  {name: "Luk15",
     data: curriculumLuk15}
   ];
+
+  db.serialize(function() {
+    db.run('DROP TABLE IF EXISTS curriculumGroup;');
+    db.run('CREATE TABLE IF NOT EXISTS curriculumGroup (curriculumName TEXT);');
+    for (i of curriculumArray) {
+      db.run('INSERT OR REPLACE INTO curriculumGroup VALUES ("'+i.name+'") ;');
+    }
+  });
 
   for (value of curriculumArray) {
     let curriculumName = value.name;
