@@ -7,13 +7,13 @@
   "otherCredits": 15,
   "instructorId": 5,
   "passedCourses": [
-    {"code": 12345,
-    "date": "11-06-1989",
+    {"code": "811122P",
+    "date": "1989-01-01",
     "name": "Johdatus ohjelmointiin",
     "credits": 5
     },
     {"code":"810136P",
-      "date": "11-06-1989",
+      "date": "1989-11-06",
       "name": "Johdatus tietojenkäsittelytieteisiin",
       "credits": 5
     }
@@ -37,7 +37,7 @@
   "otherCredits": 10,
   "instructorId": 5,
   "passedCourses": [
-    {"code": 2345,
+    {"code": "811177P",
     "date": "11-06-2016",
     "name": "Ihminen tietokoneen käyttäjänä ja kehittäjänä",
     "credits": 5}
@@ -181,11 +181,15 @@
   "otherCredits": 20,
   "instructorId": 5,
   "passedCourses": [
-    {"code": 12345,
-    "date": "11-06-1989",
+    {"code": "811122P",
+    "date": "1989-11-06",
     "name": "Johdatus ohjelmointiin",
-    "credits": 5}
-    ],
+    "credits": 5},
+    {"code": "810136P",
+    "date": "2017-04-16",
+    "name": "Johdatus tietojenkäsittelytieteisiin",
+    "credits": 5
+    }],
   "courses": [{
     "code": 123456,
     "date": "11-06-2017",
@@ -205,8 +209,8 @@
   "otherCredits": 22,
   "instructorId": 5,
   "passedCourses": [
-    {"code": 2345,
-    "date": "11-06-2016",
+    {"code": "811177P",
+    "date": "2017-04-04",
     "name": "Ihminen tietokoneen käyttäjänä ja kehittäjänä",
     "credits": 5}
     ],
@@ -230,7 +234,7 @@
   "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
-    "date": "11-06-2016",
+    "date": "2016-11-06",
     "name": "Genetiikka",
     "credits": 5
     }],
@@ -254,7 +258,7 @@
   "instructorId": 5,
   "passedCourses": [
     {"code": 234455,
-    "date": "11-06-2016",
+    "date": "2016-06-11",
     "name": "Genetiikka",
     "credits": 5
     }],
