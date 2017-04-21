@@ -10,6 +10,7 @@ import { IndexLink } from 'react-router';
 
 import LuKStudentTable from './LuKStudentTable.jsx'
 import FMStudentTable from './FMStudentTable.jsx'
+import Repeater from './repeater.jsx'
 import { dataToRedux, curriculumToState, curriculumGroupToState } from '../actions/actions.js';
 import { getDataSuccess } from '../actions/actions.js';
 import { getStudents } from '../actions/actions.js';
@@ -40,6 +41,7 @@ class App extends Component {
             <div className="center-container">
               <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum}/>
               <FMStudentTable students = {studentsList}/>
+              <Repeater group = {curriculumGroup.groupList}/>
             </div>
           </div>
          </div>
