@@ -37,7 +37,7 @@ class LuKStudentTable extends React.Component {
         {
           headerClassName: 'omaOpet',
           header: () => (
-            <span class="foo" title="Omaopettaja">
+            <span title="Omaopettaja">
               Omaopettaja
             </span>
           ),
@@ -58,12 +58,12 @@ class LuKStudentTable extends React.Component {
       try {
         _.forEach(curriculum.courses, function(course) {
           course.header = () => (
-            <span class="foo" title={course.name}>
+            <span title={course.name}>
               {course.name}
            </span>
           )
           course.accessor = course.code;
-          course.minWidth = 45;
+          course.minWidth = 40;
           course.headerClassName = 'courseH';
           course.render = (row) => (
             <div
@@ -83,8 +83,7 @@ class LuKStudentTable extends React.Component {
                 borderRadius: '2px',
                 transition: 'all .2s ease-out'
               }}
-              class="foo"
-              title={row.value}
+              title={row.row.lastName + ' ' + row.row.firstName + '\n' + course.name + '\n' + course.code + '\n' + row.value}
             />
           </div>
         )
