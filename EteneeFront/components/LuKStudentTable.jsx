@@ -95,29 +95,31 @@ class LuKStudentTable extends React.Component {
       catch (error) {}
 
       return (
-        <div className="lukTable">
-          <h3 className="lukHeader">LuK-opiskelijat</h3>
-          <ReactTable
-             data={lukArray}
-             columns={lukStudentColumns}
-             showPagination={false}
-             hasHeaderGroups={false}
-             defaultSorting={[{
-               id: 'lastName',
-               asc: true
-             }]}
-             pageSize={lukArray.length}
-             SubComponent={(row) => {
-               return (
-                 <div className="subClass">
-                     <ul>
-                       <li> Opiskelijanumero: {row.row.studentId} </li>
-                       <li> Sähköposti: {row.row.email} </li>
-                     </ul>
-                 </div>
-               )
-             }}
-           />
+        <div className="scrolling">
+          <div className="lukTable">
+            <h3 className="lukHeader">LuK-opiskelijat</h3>
+            <ReactTable
+              data={lukArray}
+              columns={lukStudentColumns}
+              showPagination={false}
+              hasHeaderGroups={false}
+              defaultSorting={[{
+                id: 'lastName',
+                asc: true
+              }]}
+              pageSize={lukArray.length}
+              SubComponent={(row) => {
+                return (
+                  <div className="subClass">
+                      <ul>
+                        <li> Opiskelijanumero: {row.row.studentId} </li>
+                        <li> Sähköposti: {row.row.email} </li>
+                      </ul>
+                  </div>
+                )
+              }}
+            />
+          </div>
         </div>
       )
    }

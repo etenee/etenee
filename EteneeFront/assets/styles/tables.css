@@ -23,6 +23,12 @@ div.rt-thead.-header {
 
 .rt-tr-group:nth-child(even) {background-color: #f2f2f2}
 
+.scrolling {
+    overflow: hidden;
+    width: 1800px;
+    margin-right: 20px;
+}
+
 .lukHeader {
     margin-top: 50px;
 }
