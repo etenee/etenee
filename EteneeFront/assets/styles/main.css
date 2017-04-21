@@ -1,5 +1,6 @@
 @import '../../node_modules/react-table/react-table.css';
 @import './tables.css';
+@import '../../node_modules/tlite/tlite.css';
 
 .center-container {
   padding: 10px;

@@ -4,7 +4,7 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 
 import moment from 'moment'
-
+tlite(el => el.classList.contains('foo'));
 class LuKStudentTable extends React.Component {
    render() {
       const lukStudentColumns = [{
@@ -100,6 +100,7 @@ class LuKStudentTable extends React.Component {
 
       return (
         <div className="lukTable">
+          <button class="foo" title="OASIDJASOID">Moi</button>
           <h3 className="lukHeader">LuK-opiskelijat</h3>
           <ReactTable
              data={lukStudentData}
