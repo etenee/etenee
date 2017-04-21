@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { createStore, applyMiddleware, compose } from 'redux';
 var _ = require('lodash');
-const tlite = require('tlite');
 import config from './config/config.js';
 
 import App from './App.jsx';
