@@ -5,6 +5,8 @@ import { ReactTableDefaults } from 'react-table'
 import ReactTooltip from 'react-tooltip'
 import moment from 'moment'
 
+tlite(el => el.classList.contains('foo'));
+
 class LuKStudentTable extends React.Component {
   constructor(props) {
     super(props);
