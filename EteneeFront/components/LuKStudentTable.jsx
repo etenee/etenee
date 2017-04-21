@@ -25,11 +25,6 @@ class LuKStudentTable extends React.Component {
           accessor: 'firstName'
         },
         {
-          header: 'OPS',
-          id: 'ops',
-          accessor: d => d.curriculum.ops
-        },
-        {
           header: 'OP',
           accessor: 'totalCredits',
           minWidth: 55
@@ -44,7 +39,6 @@ class LuKStudentTable extends React.Component {
           header: () => (
             <span class="foo" title="Omaopettaja">
               Omaopettaja
-              <ReactTooltip />
             </span>
           ),
           accessor: 'instructorId',
@@ -64,9 +58,8 @@ class LuKStudentTable extends React.Component {
       try {
         _.forEach(curriculum.courses, function(course) {
           course.header = () => (
-            <span data-tip={course.name}>
+            <span class="foo" title={course.name}>
               {course.name}
-              <ReactTooltip />
            </span>
           )
           course.accessor = course.code;
@@ -75,8 +68,10 @@ class LuKStudentTable extends React.Component {
           course.render = (row) => (
             <div
               style={{
-                width: '100%',
-                height: '100%'
+              width: '100%',
+              height: '100%',
+              backgroundColor: '#dadada',
+              borderRadius: '2px'
               }}
             >
             <div
@@ -84,10 +79,14 @@ class LuKStudentTable extends React.Component {
                 height: '100%',
                 backgroundColor: diffToThisDay(row.value) >= 30 ? '#CCFFCC'
                 : diffToThisDay(row.value) > 0 && diffToThisDay(row.value) < 30 ? '#00FF00'
-                : 'null'
+                : '#dadada',
+                borderRadius: '2px',
+                transition: 'all .2s ease-out'
               }}
+              class="foo"
+              title={row.value}
             />
-            </div>
+          </div>
         )
         lukStudentColumns[0].columns.push(course);
         })
