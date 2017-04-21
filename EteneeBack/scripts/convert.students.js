@@ -8,7 +8,7 @@ combinedList.students = all.students.concat(mass.students);
 
 db.serialize(function() {
   db.run('DROP TABLE IF EXISTS students;');
-  db.run('CREATE TABLE if not exists students (studentId integer PRIMARY KEY NOT NULL, firstName varchar(30), lastName varchar(30), totalCredits integer, otherCredits integer, instructorId integer, instructorName varchar(30), curriculum varchar(30));');
+  db.run('CREATE TABLE if not exists students (studentId integer PRIMARY KEY NOT NULL, firstName varchar(30), lastName varchar(30), totalCredits integer, otherCredits integer, instructorId integer, instructorName varchar(30), email TEXT, curriculum varchar(30));');
 });
 
 /*for (let student of all.students) {
@@ -20,8 +20,9 @@ for (let student of combinedList.students) {
     let instructorName = null;
     db.get('select firstName, lastName from users where userId = '+student.instructorId+';',function(err, row) {
       instructorName = row.firstName + ' ' + row.lastName;
+      email = student.firstName + student.lastName + '@gmail.com';
       console.log(instructorName);
-      db.run('INSERT OR REPLACE INTO students VALUES ('+student.id+', "'+student.firstName+'", "'+student.lastName+'", '+student.totalCredits+', '+student.otherCredits+', '+student.instructorId+',"'+instructorName+'", "'+student.curriculum.ops+'");');
+      db.run('INSERT OR REPLACE INTO students VALUES ('+student.id+', "'+student.firstName+'", "'+student.lastName+'", '+student.totalCredits+', '+student.otherCredits+', '+student.instructorId+',"'+instructorName+'", "'+email+'", "'+student.curriculum.ops+'");');
     });
   });
 };
