@@ -83,7 +83,7 @@ class LuKStudentTable extends React.Component {
                 borderRadius: '2px',
                 transition: 'all .2s ease-out'
               }}
-              title={row.row.lastName + ' ' + row.row.firstName + '\n' + course.name + '\n' + course.code + '\n' + row.value}
+              title={row.row.lastName + ' ' + row.row.firstName + '\n' + course.name + ' (' + course.code + ')\nSuorituspäivä: ' + row.value}
             />
           </div>
         )
