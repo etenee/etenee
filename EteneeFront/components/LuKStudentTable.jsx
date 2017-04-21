@@ -106,7 +106,7 @@ class LuKStudentTable extends React.Component {
                id: 'lastName',
                asc: true
              }]}
-             minRows={lukArray.length}
+             pageSize={lukArray.length}
              SubComponent={(row) => {
                return (
                  <div className="subClass">
