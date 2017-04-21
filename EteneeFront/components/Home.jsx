@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import thunk from 'redux-thunk';
 require('es6-promise').polyfill();
 require('isomorphic-fetch');
-const tlite = require('tlite');
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { bindActionCreators } from 'redux';

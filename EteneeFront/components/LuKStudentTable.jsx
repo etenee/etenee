@@ -4,7 +4,7 @@ import ReactTable from 'react-table'
 import { ReactTableDefaults } from 'react-table'
 import ReactTooltip from 'react-tooltip'
 import moment from 'moment'
-
+const tlite = require('tlite');
 tlite(el => el.classList.contains('foo'));
 
 class LuKStudentTable extends React.Component {
@@ -42,7 +42,7 @@ class LuKStudentTable extends React.Component {
         {
           headerClassName: 'omaOpet',
           header: () => (
-            <span data-tip="Omaopettaja">
+            <span class="foo" title="Omaopettaja">
               Omaopettaja
               <ReactTooltip />
             </span>
