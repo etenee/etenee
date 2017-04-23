@@ -40,8 +40,7 @@ class App extends Component {
           <div>
             <div className="center-container">
               <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum}/>
-              <FMStudentTable students = {studentsList}/>
-              <Repeater group = {curriculumGroup.groupList}/>
+              <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
             </div>
           </div>
          </div>
