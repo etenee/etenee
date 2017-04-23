@@ -24,9 +24,6 @@ class Repeater extends React.Component {
 
         console.log('repeater props');
         console.log(this.props);
-        var rows = properties.group.map(function(row) {
-            return <studentTable key={row.curriculumName}/>
-        });
 
         return (
             <div>
