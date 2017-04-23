@@ -27,9 +27,9 @@ class Repeater extends React.Component {
 
         return (
             <div>
-                <h2>
+                <div>
                     {table(this.props.group, this.props.students)}
-                </h2>
+                </div>
             </div>
         )
 
