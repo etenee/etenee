@@ -95,8 +95,8 @@ class LuKStudentTable extends React.Component {
       catch (error) {}
 
       return (
-        <div className="scrolling">
-          <div className="lukTable">
+        <div className="lukTable">
+          <div>
             <h3 className="lukHeader">LuK-opiskelijat</h3>
             <ReactTable
               data={lukArray}
