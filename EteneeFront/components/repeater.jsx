@@ -14,10 +14,6 @@ class Repeater extends React.Component {
 
     render() {
 
-        let properties = this.props;
-
-        const array = [2, 3, , 5, 6];
-
         const table = (group, students) => (
             <div>{group.map((row) => 
                 <div key={row.curriculumName}>
@@ -26,16 +22,9 @@ class Repeater extends React.Component {
             }</div>
         );
 
-        function getProps () {
-            const prop = properties.students;
-            return prop;
-        }
         console.log('repeater props');
         console.log(this.props);
         var rows = properties.group.map(function(row) {
-            //Add props to your LiComponent just as you would normally. 
-            //return <studentTable />
-            
             return <studentTable key={row.curriculumName}/>
         });
 
