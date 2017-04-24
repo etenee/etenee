@@ -14,6 +14,7 @@ if (cluster.isMaster) {
   //this code belongs to cluster workers
   //import express
   var express = require('express');
+  var bodyParser = require('body-parser');
   var app = express();
 
 
@@ -48,8 +49,8 @@ if (cluster.isMaster) {
   });
 
   //default endpoint responds with var data
-  app.get('/', function(req, res) {
-  	res.json(data);
+  app.post('/changeCurriculum', function(req, res) {
+  	console.log(req.studentId);
   });
 
   //fm endpoint responds with var fm
