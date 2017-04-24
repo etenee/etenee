@@ -39,7 +39,6 @@ class App extends Component {
           <IndexLink className="toLoginPage" to='/'>Kirjaudu ulos</IndexLink>
           <div>
             <div className="center-container">
-              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum}/>
               <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
             </div>
           </div>
