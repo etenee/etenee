@@ -41,7 +41,7 @@ class StudentTable extends React.Component {
               Omaopettaja
             </span>
           ),
-          accessor: 'instructorId',
+          accessor: 'instructorNameBrev',
           minWidth: 55
           // show: false
         }]
