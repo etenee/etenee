@@ -8,8 +8,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { bindActionCreators } from 'redux';
 import { IndexLink } from 'react-router';
 
-import LuKStudentTable from './LuKStudentTable.jsx'
-import FMStudentTable from './FMStudentTable.jsx'
 import Repeater from './repeater.jsx'
 import { dataToRedux, curriculumToState, curriculumGroupToState } from '../actions/actions.js';
 import { getDataSuccess } from '../actions/actions.js';
@@ -39,7 +37,6 @@ class App extends Component {
           <IndexLink className="toLoginPage" to='/'>Kirjaudu ulos</IndexLink>
           <div>
             <div className="center-container">
-              <LuKStudentTable students = {studentsList} curriculum = {lukCurriculum.lukCurriculum}/>
               <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
             </div>
           </div>
