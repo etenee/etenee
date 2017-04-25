@@ -2,8 +2,9 @@ div.rt-tbody {
     text-align: center;
 }
 
-div.rt-td:hover {
-    background-color: lightyellow;
+div.rt-tr-group:active {
+    background-color: grey;
+    color: white;
 }
 
 .lastN, .firstN {
@@ -21,7 +22,9 @@ div.rt-thead.-header {
 
 }
 
-.rt-tr-group:nth-child(even) {background-color: #f2f2f2}
+.rt-tr-group:nth-child(even) {background-color: #E9E9E9}
+
+.rt-tr-group:nth-child(odd) {background-color: #F4F5F4}
 
 .lukTable {
     overflow: hidden;
