@@ -6,6 +6,12 @@ var all = require('.././data/all.json');
 var mass = require('.././data/massData.json');
 var combinedList = {};
 combinedList.students = all.students.concat(mass.students);
+let dates = ['2014-02-11', '2017-02-11', '2016-02-11', '2016-12-21', '2016-06-14', '2015-08-16', '2017-05-1'];
+let randomIndex = null;
+let randomDate = null;
+
+//randomIndex = Math.floor((Math.random() * 6) + 0);
+    //console.log(dates[randomIndex]);
 
 db.serialize(function() {
   db.run('DROP TABLE IF EXISTS passedCourses');
@@ -22,8 +28,10 @@ db.serialize(function() {
 for (let student of combinedList.students) {
   for (let course of student.passedCourses) {
     //var superDate = new Date(course.date);
-    var superDate = moment().format('YYYY-MM-DD');
+    //var superDate = moment().format('YYYY-MM-DD');
     var id = student.id;
+    randomIndex = Math.floor((Math.random() * 7) + 0);
+    var superDate = dates[randomIndex];
     //var finalDate = Date.toDateString(superDate);
     //console.log(student.id + typeof(student.id));
     console.log('course code: ' + course.courseId);
