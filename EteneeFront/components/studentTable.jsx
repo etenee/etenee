@@ -88,7 +88,7 @@ class StudentTable extends React.Component {
                 transition: 'all .2s ease-out'
               }}
               class="foo"
-              title={row.value}
+              title={row.row.lastName + ' ' + row.row.firstName + '\n' + course.name + ' (' + course.courseId + ')\nSuorituspäivä: ' + row.value}
             />
           </div>
         )

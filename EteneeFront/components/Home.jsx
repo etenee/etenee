@@ -8,8 +8,6 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { bindActionCreators } from 'redux';
 import { IndexLink } from 'react-router';
 
-import LuKStudentTable from './LuKStudentTable.jsx'
-import FMStudentTable from './FMStudentTable.jsx'
 import Repeater from './repeater.jsx'
 import { dataToRedux, curriculumToState, curriculumGroupToState } from '../actions/actions.js';
 import { getDataSuccess } from '../actions/actions.js';
