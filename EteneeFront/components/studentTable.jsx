@@ -50,14 +50,7 @@ class StudentTable extends React.Component {
       //this is the data we feed to the react table
       let tableData = _.filter(this.props.students, {"curriculum": this.props.curriculumName});
       const passedCourses = _.map(this.props.students, "passedCourses");
-      //console.log('passedCourses:', passedCourses);
-      //console.log('tableData1:', tableData);
-
-
       const curriculum = this.props.curriculum;
-      //console.log('curricuum');
-      //console.log(this.props.curriculum);
-
       // push course data into columns. This is actually not a very good way
       //default props would probably be better
       try {
