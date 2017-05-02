@@ -74,16 +74,16 @@ class StudentTable extends React.Component {
               style={{
               width: '100%',
               height: '100%',
-              backgroundColor: '#dadada',
+              backgroundColor: '#FFFFFF',
               borderRadius: '2px'
               }}
             >
             <div
               style={{
                 height: '100%',
-                backgroundColor: diffToThisDay(row.value) >= 30 ? '#CCFFCC'
+                backgroundColor: diffToThisDay(row.value) >= 30 ? '#99FF99'
                 : diffToThisDay(row.value) > 0 && diffToThisDay(row.value) < 30 ? '#00FF00'
-                : '#dadada',
+                : '#FFFFFF',
                 borderRadius: '2px',
                 transition: 'all .2s ease-out'
               }}
