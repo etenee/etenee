@@ -48,29 +48,17 @@ if (cluster.isMaster) {
     next();
   });
 
+  app.use(bodyParser.urlencoded({ extended: false }));
+  app.use(bodyParser.json());
+
   //default endpoint responds with var data
+  /*
+  jos tahtoo pommittaa curlilla, tällä voi
+  curl -X POST -H 'Content-Type: application/json' -d '{"studentId":"5"}' http://localhost:3001/changeCurriculum
+  */
   app.post('/changeCurriculum', function(req, res) {
-  	console.log(req.studentId);
-  });
-
-  //fm endpoint responds with var fm
-  app.get('/fm/', function(req, res) {
-  	res.json(fm);
-  });
-
-  app.get('/joinTest', function(req, res) {
-    db.all('select * from students inner join passedCourses ON students.studentId = passedCourses.studentId', function(err, row) {
-      console.log(row);
-    },
-    function(err, complete) {
-      res.json(complete);
-    });
-  });
-
-  app.get('/stud', function(req, res) {
-    db.serialize(function() {
-      
-    });
+  	console.log(req.body.studentId);
+    res.json('you sent' + req.body.studentId);
   });
 
   app.get('/studentsdb/', function(req, res) {
@@ -93,43 +81,26 @@ if (cluster.isMaster) {
     res.json(all);
   });
 
-  app.get('/bachelorCurriculum/', function(req, res) {
-  	res.json(bachelorCurriculum);
-  });
-
   app.get('/curriculums', function(req, res) {
     const list = [];
     db.each('SELECT * from curriculumGroup',
-    function(err, row) {
+    function(err, row) {//this is executed with every completed database row
       list.push(row);
     },
-    function (err, complete) {
-      if (err) {
+    function (err, complete) {//this is executed when whole query in complete
+      if (err) {//handle error
         console.log(err);
       }
+      //run populate exported from custom modules, run function below as callback
       populate(list, function(response) {
         if (response) {
           res.json(response);
+          //log which worker handled this case
           console.log('curriculums sent! -Worker %d', cluster.worker.id);
         };
       })
     });
   });
-
-  /*app.get('/test', function (req, res) {
-    let list = [1, 2, 4];
-    let promisq = new Promise(function(resolve, reject) {
-      value = 0;
-      for (i of list) {
-        value++
-      }
-      resolve(value);
-    });
-    promisq.then(function(success) {
-      console.log(success);
-      res.json(success);
-    });
-  });*/
 
   //server will listen to port 3001
   app.listen(3001);

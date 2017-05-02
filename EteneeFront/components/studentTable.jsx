@@ -12,6 +12,7 @@ class StudentTable extends React.Component {
     super(props);
   }
    render() {
+     //hardcoded data for react table
       const studentColumns = [{
         columns: [{
           className: 'lastN',
@@ -46,21 +47,23 @@ class StudentTable extends React.Component {
           // show: false
         }]
       }]
-
+      //this is the data we feed to the react table
       let tableData = _.filter(this.props.students, {"curriculum": this.props.curriculumName});
       const passedCourses = _.map(this.props.students, "passedCourses");
-      console.log('passedCourses:', passedCourses);
-      console.log('tableData1:', tableData);
+      //console.log('passedCourses:', passedCourses);
+      //console.log('tableData1:', tableData);
 
 
       const curriculum = this.props.curriculum;
-      console.log('curricuum');
-      console.log(this.props.curriculum);
+      //console.log('curricuum');
+      //console.log(this.props.curriculum);
 
+      // push course data into columns. This is actually not a very good way
+      //default props would probably be better
       try {
         _.forEach(curriculum, function(course) {
-          console.log('debug course');
-          console.log(course);
+          //console.log('debug course');
+          //console.log(course);
           course.header = () => (
             <span class="foo" title={course.name}>
               {course.name}
@@ -91,14 +94,15 @@ class StudentTable extends React.Component {
               title={row.row.lastName + ' ' + row.row.firstName + '\n' + course.name + ' (' + course.courseId + ')\nSuorituspäivä: ' + row.value}
             />
           </div>
-        )
+          )
         studentColumns[0].columns.push(course);
         })
-        console.log('got columns');
-        console.log(studentColumns);
+        //console.log('got columns');
+        //console.log(studentColumns);
       }
       catch (error) {}
 
+      //variable that is a react table
       let element = <div className="lukTable">
           <h3 className="lukHeader">{this.props.curriculumName}</h3>
           <ReactTable
@@ -109,6 +113,9 @@ class StudentTable extends React.Component {
              defaultSorting={[{
                id: 'lastName',
                asc: true
+             }]}
+             Sorting={[{
+               
              }]}
              pageSize={tableData.length}
              SubComponent={(row) => {
@@ -121,6 +128,32 @@ class StudentTable extends React.Component {
                  </div>
                )
              }}
+             //this is an attempt to make custom sorting for passed courses
+             //react table author says this will have a patch in the future
+             /*getTheadThProps={(state, rowInfo, column, instance) => {
+                return {
+                  onClick: e => {
+                    //console.log('A Td Element was clicked!')
+                    //console.log('it produced this event:', e)
+                    console.log('It was in this column:', column)
+                    console.log('It was in this row:', rowInfo)
+                    //console.log('It was in this table instance:', instance)
+                  }
+                }
+              }}*/
+              /*onSortingChange={(column) => {
+                console.log(column);
+                if (column.id === 'firstName') {
+                  let value = _.sortBy(tableData, ['firstName']);
+                  console.log(value);
+                  tableData = value;
+                } else if (column.id === 'lastName') {
+                  let value = _.sortBy(tableData, ['lastName']);
+                  console.log(value);
+                  tableData = value;
+                }
+                return undefined;
+              }}*/
            />
         </div>
 
