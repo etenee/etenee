@@ -6,23 +6,6 @@ import { GET_STUDENTS,
   GET_LUK_CURRICULUM_SUCCESS,
   GET_CURRICULUM_GROUP_SUCCESS
 } from '../actions/actions.js';
-/*import { GET_REQUEST } from '../actions/actions.js';
-import { GET_DATA_SUCCESS } from '../actions/actions.js';
-import { GET_DATA_ERROR } from '../actions/actions.js';*/
-
-/*function students(state = [], action) {
-  switch (action.type) {
-    case GET_STUDENTS:
-      console.log(action.id, action.data);
-      return [
-        ...state,
-        id: action.id,
-        data: action.data
-      ]
-    default:
-      return state
-  }
-}*/
 
 function students (state = [], action) {
   switch (action.type) {
@@ -68,17 +51,6 @@ function curriculumGroup (state = [], action) {
       return state;
   }
 }
-/*function students (state = [], action) {
-  switch (action.type) {
-    case "GET_DATA_SUCCESS":
-      return[
-        ...state,
-        getData(undefined, action)
-      ]
-    default:
-      return state
-  }
-}*/
 
 const studentModule = combineReducers({
   lukCurriculum,

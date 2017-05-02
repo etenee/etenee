@@ -45,9 +45,6 @@ class StudentTable extends React.Component {
           accessor: 'instructorNameBrev',
           minWidth: 55
           // show: false
-        }, {
-          header: 'passedCourses',
-          accessor: 'passedCourses[courseId]'
         }]
       }]
       //this is the data we feed to the react table
