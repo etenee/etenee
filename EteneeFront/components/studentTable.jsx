@@ -12,6 +12,7 @@ class StudentTable extends React.Component {
     super(props);
   }
    render() {
+     //hardcoded data for react table
       const studentColumns = [{
         columns: [{
           className: 'lastN',
@@ -49,14 +50,8 @@ class StudentTable extends React.Component {
           accessor: 'passedCourses[courseId]'
         }]
       }]
-
+      //this is the data we feed to the react table
       let tableData = _.filter(this.props.students, {"curriculum": this.props.curriculumName});
-      //console.log('tabledata' + JSON.stringify(tableData));
-      /*const tableData = (props) => {
-        let value = _.filter(props.students, {"curriculum": this.props.curriculumName});
-        console.log('value is ' + JSON.stringify(value));
-        return value;
-      }*/
       const passedCourses = _.map(this.props.students, "passedCourses");
       //console.log('passedCourses:', passedCourses);
       //console.log('tableData1:', tableData);
@@ -66,6 +61,8 @@ class StudentTable extends React.Component {
       //console.log('curricuum');
       //console.log(this.props.curriculum);
 
+      // push course data into columns. This is actually not a very good way
+      //default props would probably be better
       try {
         _.forEach(curriculum, function(course) {
           //console.log('debug course');
@@ -108,6 +105,7 @@ class StudentTable extends React.Component {
       }
       catch (error) {}
 
+      //variable that is a react table
       let element = <div className="lukTable">
           <h3 className="lukHeader">{this.props.curriculumName}</h3>
           <ReactTable
@@ -133,6 +131,8 @@ class StudentTable extends React.Component {
                  </div>
                )
              }}
+             //this is an attempt to make custom sorting for passed courses
+             //react table author says this will have a patch in the future
              /*getTheadThProps={(state, rowInfo, column, instance) => {
                 return {
                   onClick: e => {
@@ -159,9 +159,6 @@ class StudentTable extends React.Component {
               }}*/
            />
         </div>
-
-        //console.log(element);
-        console.log('2016-02-05' > '2017-02-05');
 
       return (
         <div>{element}</div>

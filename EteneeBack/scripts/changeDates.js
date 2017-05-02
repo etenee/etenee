@@ -1,3 +1,5 @@
+//this script is useless. Not used anywhere
+
 var sqlite3 = require('sqlite3').verbose()
 var db = new sqlite3.Database('.././models/database.db')
 const async = require('async')
