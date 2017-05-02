@@ -1,3 +1,4 @@
+//this script transforms student JSON:s into database data
 var sqlite3 = require('sqlite3').verbose()
 var db = new sqlite3.Database('.././models/database.db')
 
@@ -6,19 +7,18 @@ var mass = require('.././data/massData.json');
 var combinedList = {};
 combinedList.students = all.students.concat(mass.students);
 
+//format table
 db.serialize(function() {
   db.run('DROP TABLE IF EXISTS students;');
   db.run('CREATE TABLE if not exists students (studentId integer PRIMARY KEY NOT NULL, firstName varchar(30), lastName varchar(30), totalCredits integer, otherCredits integer, instructorId integer, instructorName varchar(30), instructorNameBrev varchar(5), email TEXT, curriculum varchar(30));');
 });
 
-/*for (let student of all.students) {
-  db.run('INSERT INTO students VALUES (' + student.id', "' + student.firstName + '", "' + student.lastName +'", ' + student.totalCredits + ', ' + student.otherCredits + ');');
-}*/
-
+//for every student insert information into table
 for (let student of combinedList.students) {
   db.serialize(function() {
     let instructorName = null;
     let instructorNameBrev = null;
+    //run db query and execute another query as callback function
     db.get('select firstName, lastName from users where userId = '+student.instructorId+';',function(err, row) {
       instructorName = row.firstName + ' ' + row.lastName;
       instructorNameBrev = row.firstName[0] + row.lastName[0];

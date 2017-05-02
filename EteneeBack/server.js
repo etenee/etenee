@@ -48,9 +48,17 @@ if (cluster.isMaster) {
     next();
   });
 
+  app.use(bodyParser.urlencoded({ extended: false }));
+  app.use(bodyParser.json());
+
   //default endpoint responds with var data
+  /*
+  jos tahtoo pommittaa curlilla, tällä voi
+  curl -X POST -H 'Content-Type: application/json' -d '{"studentId":"5"}' http://localhost:3001/changeCurriculum
+  */
   app.post('/changeCurriculum', function(req, res) {
-  	console.log(req.studentId);
+  	console.log(req.body.studentId);
+    res.json('you sent' + req.body.studentId);
   });
 
   //fm endpoint responds with var fm
@@ -64,12 +72,6 @@ if (cluster.isMaster) {
     },
     function(err, complete) {
       res.json(complete);
-    });
-  });
-
-  app.get('/stud', function(req, res) {
-    db.serialize(function() {
-      
     });
   });
 
