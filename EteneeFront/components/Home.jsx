@@ -25,24 +25,29 @@ class App extends Component {
     //this.props.dispatch(dataToRedux())
   };
 
-   render() {
-     const { studentsList, lukCurriculum, curriculumGroup } = this.props
-     /*const coursesArray = _.forEach(this.props.curriculum.lukCurriculum.courses, function(course){
-       console.log(course);
-     });*/
+render() {
+  const { studentsList, lukCurriculum, curriculumGroup } = this.props
+  /*const coursesArray = _.forEach(this.props.curriculum.lukCurriculum.courses, function(course){
+  console.log(course);
+  });*/
 
-      return (
-        <div>
-          <h1 className="siteHeading">Opiskelijoiden etenemisen seurantatyökalu</h1>
-          <IndexLink className="toLoginPage" to='/'>Kirjaudu ulos</IndexLink>
-          <div>
-            <div className="center-container">
-              <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
-            </div>
-          </div>
-         </div>
-      )
-   }
+  return (
+    <div>
+      <h1 className="siteHeading">Opiskelijoiden etenemisen seurantatyökalu</h1>
+      <IndexLink className="toLoginPage" to='/'>Kirjaudu ulos</IndexLink>
+      <div>
+        <div className="center-container">
+          <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
+          <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
+          <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
+        </div>
+      </div>
+      <footer className="homeFooter">
+        <p>Kaikki sovelluksessa käytettävät nimet on haettu sattumanvaraisesti Suomen väestörekisterikeskuksen tiedoista</p>
+      </footer>
+    </div>
+  )
+}
 }
 
 
