@@ -104,31 +104,32 @@ class StudentTable extends React.Component {
 
       //variable that is a react table
       let element = <div className="lukTable">
-          <h3 className="lukHeader">{this.props.curriculumName}</h3>
-          <ReactTable
-             data={tableData}
-             columns={studentColumns}
-             showPagination={false}
-             hasHeaderGroups={false}
-             defaultSorting={[{
-               id: 'lastName',
-               asc: true
-             }]}
-             Sorting={[{
-               
-             }]}
-             pageSize={tableData.length}
-             SubComponent={(row) => {
-               return (
-                 <div className="subClass">
-                     <ul>
-                       <li> Opiskelijanumero: {row.row.studentId} </li>
-                       <li> Sähköposti: {row.row.email} </li>
-                     </ul>
-                 </div>
-               )
-             }}
-             //this is an attempt to make custom sorting for passed courses
+        <h3 className="lukHeader">{this.props.curriculumName}</h3>
+        <ReactTable
+          data={tableData}
+          columns={studentColumns}
+          showPagination={false}
+          hasHeaderGroups={false}
+          defaultSorting={[{
+            id: 'lastName',
+            asc: true
+          }]}
+          Sorting={[{
+          
+          }]}
+          pageSize={tableData.length}
+          resizable={false}
+          SubComponent={(row) => {
+            return (
+              <div className="subClass">
+                  <ul>
+                    <li> Opiskelijanumero: {row.row.studentId} </li>
+                    <li> Sähköposti: {row.row.email} </li>
+                  </ul>
+              </div>
+            )
+          }}
+//this is an attempt to make custom sorting for passed courses
              //react table author says this will have a patch in the future
              /*getTheadThProps={(state, rowInfo, column, instance) => {
                 return {
