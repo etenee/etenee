@@ -16,10 +16,9 @@ div.rt-thead.-header {
     color: white;
 }
 
-.rt-th.courseH, .rt-th.omaOpet {
-    font-size: 1em;
-    text-overflow: clip;
-
+.rt-resizable-header.-cursor-pointer.rt-th .rt-resizable-header-content{
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 .rt-tr-group:nth-child(even) {background-color: #E9E9E9}

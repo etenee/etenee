@@ -71,7 +71,6 @@ class StudentTable extends React.Component {
           )
           course.accessor = course.courseId;
           course.minWidth = 45;
-          course.headerClassName = 'courseH';
           course.render = (row) => (
             <div
               style={{
@@ -115,7 +114,7 @@ class StudentTable extends React.Component {
                asc: true
              }]}
              Sorting={[{
-               
+
              }]}
              pageSize={tableData.length}
              SubComponent={(row) => {
@@ -154,6 +153,7 @@ class StudentTable extends React.Component {
                 }
                 return undefined;
               }}*/
+              resizable={false}
            />
         </div>
 
