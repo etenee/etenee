@@ -38,8 +38,6 @@ render() {
       <div>
         <div className="center-container">
           <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
-          <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
-          <Repeater group = {curriculumGroup.groupList} students = {studentsList.students}/>
         </div>
       </div>
       <footer className="homeFooter">
