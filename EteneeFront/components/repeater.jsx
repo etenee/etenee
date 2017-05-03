@@ -5,12 +5,12 @@ import { ReactTableDefaults } from 'react-table'
 import StudentTable from './studentTable.jsx';
 
 class Repeater extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-        //not used but good to have
+    constructor(props) {
+        super(props);
+        this.state = {
+            //not used but good to have
+        }
     }
-  }
 
     render() {
 
@@ -30,12 +30,9 @@ class Repeater extends React.Component {
 
         return (
             <div>
-                <div>
-                    {table(this.props.group, this.props.students)}
-                </div>
+                {table(this.props.group, this.props.students)}
             </div>
         )
-
     }
 }
 
